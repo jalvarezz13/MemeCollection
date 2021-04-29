@@ -1,4 +1,4 @@
-# MicroTamagochi #
+# Meme Collection #
 ### Construcción de una red social con posibilidad de compra integrada en la misma. Para su realización se utiliza la plataforma UWP (Universal Windows Platform) y el lenguaje C#. ###
 
 Asignatura: Interacción Persona-Ordenador II
