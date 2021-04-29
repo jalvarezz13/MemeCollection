@@ -11,21 +11,26 @@
 
     <Grid Background="White" BorderBrush="Black">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="40"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-        <Viewbox Grid.ColumnSpan="2"/>
-        <TextBlock Margin="5,5,5,5" TextWrapping="Wrap"><Run Text="Titulo"/><Run Text=" del meme"/></TextBlock>
-        <Image Grid.Row="1" Margin="5,5,5,5" Source="https://www.elbutanero.com/content/uploads/images/June2018/IMG-20180601-WA0024.jpg" Stretch="Uniform" Grid.ColumnSpan="2" FocusVisualSecondaryBrush="#99FFFFFF"/>
-        <Button Grid.Column="1" Margin="5,5,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FocusVisualPrimaryBrush="White">
-            <StackPanel Orientation="Horizontal" Margin="-10,-6,-10,-7">
-                <Image Source="https://i.pinimg.com/originals/39/44/6c/39446caa52f53369b92bc97253d2b2f1.png"/>
-            </StackPanel>
-        </Button>
+        <TextBlock x:Name="txtMemePrincipal" Margin="5,5,5,5" TextWrapping="Wrap" Grid.ColumnSpan="3"><Run Text="Titulo"/><Run Text=" del meme"/></TextBlock>
+        <Image x:Name="imgMemePrincipal" Grid.Row="1" Source="https://www.elbutanero.com/content/uploads/images/June2018/IMG-20180601-WA0024.jpg" Stretch="Uniform" Grid.ColumnSpan="4" FocusVisualSecondaryBrush="#99FFFFFF" Margin="0,3,0,3"/>
+        <Image x:Name="imgLikeButton" Grid.Column="3" Source="/Images/imgLikeOff.png" Margin="5,5,5,5"/>
+        <Image HorizontalAlignment="Left" Height="20" Grid.Row="2" VerticalAlignment="Center" Width="20" Source="/Images/imgVisitas.png" Margin="10,0,0,0"/>
+        <Image HorizontalAlignment="Left" Height="16" Grid.Row="2" Width="16" Source="/Images/imgLikes.png" Grid.Column="1" Margin="10,0,0,0" Stretch="Uniform" VerticalAlignment="Center"/>
+        <Image HorizontalAlignment="Left" Height="15" Grid.Row="2" VerticalAlignment="Center" Width="15" Source="/Images/imgGuardar.png" Grid.Column="2" Margin="10,0,0,0"/>
+        <TextBlock Grid.Row="2" Text="0" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="40,2,0,4" FocusVisualPrimaryBrush="White" Foreground="Black" FontWeight="Normal"/>
+        <TextBlock Grid.Row="2" Text="0" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="40,2,58,4" FocusVisualPrimaryBrush="White" Foreground="Black" FontWeight="Normal" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <TextBlock Grid.Row="2" Text="Guardar" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="30,2,0,4" FocusVisualPrimaryBrush="White" Foreground="Black" FontWeight="Normal" Grid.ColumnSpan="2" Grid.Column="2"/>
+
 
 
 

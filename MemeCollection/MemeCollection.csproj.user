@@ -2,5 +2,16 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Source>C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\iconoApp.png</Source>
+    <SmallTileSource>C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\iconoApp.png</SmallTileSource>
+    <MediumTileSource>C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\iconoApp.png</MediumTileSource>
+    <WideTileSource>C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\iconoApp.png</WideTileSource>
+    <LargeTileSource>C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\iconoApp.png</LargeTileSource>
+    <AppIconSource>C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\iconoApp.png</AppIconSource>
+    <SplashScreenSource>C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\iconoApp.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\iconoApp.png</PackageLogoSource>
   </PropertyGroup>
 </Project>
