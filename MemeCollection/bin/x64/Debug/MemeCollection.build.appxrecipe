@@ -267,6 +267,27 @@
     <AppxPackagedFile Include="C:\Users\chipe\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaComidaPage.xbf">
+      <PackagePath>CategoriaComidaPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaDeportesPage.xbf">
+      <PackagePath>CategoriaDeportesPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaFamososPage.xbf">
+      <PackagePath>CategoriaFamososPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaInformaticaPage.xbf">
+      <PackagePath>CategoriaInformaticaPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaPeliculasPage.xbf">
+      <PackagePath>CategoriaPeliculasPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriasPage.xbf">
+      <PackagePath>CategoriasPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaVideojuegosPage.xbf">
+      <PackagePath>CategoriaVideojuegosPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chipe\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

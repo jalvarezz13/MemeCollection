@@ -119,8 +119,26 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CategoriaComidaPage.xaml.cs">
+      <DependentUpon>CategoriaComidaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriaDeportesPage.xaml.cs">
+      <DependentUpon>CategoriaDeportesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriaFamososPage.xaml.cs">
+      <DependentUpon>CategoriaFamososPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriaInformaticaPage.xaml.cs">
+      <DependentUpon>CategoriaInformaticaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriaPeliculasPage.xaml.cs">
+      <DependentUpon>CategoriaPeliculasPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CategoriasPage.xaml.cs">
       <DependentUpon>CategoriasPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriaVideojuegosPage.xaml.cs">
+      <DependentUpon>CategoriaVideojuegosPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -203,7 +221,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="CategoriaComidaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CategoriaDeportesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CategoriaFamososPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CategoriaInformaticaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CategoriaPeliculasPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CategoriasPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CategoriaVideojuegosPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

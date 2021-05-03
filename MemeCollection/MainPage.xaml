@@ -26,13 +26,13 @@
                         <ColumnDefinition></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="28*"/>
-                        <RowDefinition Height="141*"/>
-                        <RowDefinition Height="683*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <SymbolIcon x:Name="iconRecientes" Grid.Row="0" Margin="4,4,4,4" Symbol="Favorite"></SymbolIcon>
                     <SymbolIcon x:Name="iconCategorias" Grid.Row="1" Margin="4,4,4,4" Symbol="AllApps"></SymbolIcon>
@@ -46,9 +46,9 @@
                     <TextBlock x:Name="txtAjustes" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Ajustes"></TextBlock>
                 </Grid>
             </SplitView.Pane>
-            <Frame x:Name="frmMain" Grid.Column="1" Grid.Row="1" FontSize="30" FontWeight="Bold">
+            <Frame x:Name="frmMain" Grid.Column="1" Grid.Row="1" FontSize="30" FontWeight="Bold"/>
 
-            </Frame>
+
         </SplitView>
     </Grid>
 </Page>

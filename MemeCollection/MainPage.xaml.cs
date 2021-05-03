@@ -61,7 +61,13 @@ namespace MemeCollection
 
         private void irCategorias(object sender, PointerRoutedEventArgs e)
         {
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
             frmMain.Navigate(typeof(CategoriasPage));
+            if (Width<360)
+            {
+                svMenu.IsPaneOpen = false;
+                svMenu.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
         }
     }
 }

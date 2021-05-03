@@ -25,6 +25,69 @@ namespace MemeCollection
         public CategoriasPage()
         {
             this.InitializeComponent();
+            Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().SetPreferredMinSize(new Size(320, 320));
+            Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBoundsChanged += MainPage_VisibleBoundsChanged;
+        }
+
+        private void MainPage_VisibleBoundsChanged(Windows.UI.ViewManagement.ApplicationView sender, object args)
+        {
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
+
+            if (Width >= 720)
+            {
+                svMenuCategorias.IsPaneOpen = true;
+                svMenuCategorias.DisplayMode = SplitViewDisplayMode.CompactInline;
+            }
+            else if (Width >= 360)
+            {
+                svMenuCategorias.IsPaneOpen = false;
+                svMenuCategorias.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            }
+            else
+            {
+                svMenuCategorias.IsPaneOpen = false;
+                svMenuCategorias.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
+        }
+
+        private void openPane(object sender, PointerRoutedEventArgs e)
+        {
+            svMenuCategorias.IsPaneOpen = true;
+        }
+
+        private void closePane(object sender, PointerRoutedEventArgs e)
+        {
+            svMenuCategorias.IsPaneOpen = false;
+        }
+
+        private void irCategoriaComida(object sender, PointerRoutedEventArgs e)
+        {
+            frmCategoria.Navigate(typeof(CategoriaComidaPage));
+        }
+
+        private void irCategoriaDeportes(object sender, PointerRoutedEventArgs e)
+        {
+            frmCategoria.Navigate(typeof(CategoriaDeportesPage));
+        }
+
+        private void irCategoriaFamosos(object sender, PointerRoutedEventArgs e)
+        {
+            frmCategoria.Navigate(typeof(CategoriaFamososPage));
+        }
+
+        private void irCategoriaInformatica(object sender, PointerRoutedEventArgs e)
+        {
+            frmCategoria.Navigate(typeof(CategoriaInformaticaPage));
+        }
+
+        private void irCategoriaPeliculas(object sender, PointerRoutedEventArgs e)
+        {
+            frmCategoria.Navigate(typeof(CategoriaPeliculasPage));
+        }
+
+        private void irCategoriaVidejuegos(object sender, PointerRoutedEventArgs e)
+        {
+            frmCategoria.Navigate(typeof(CategoriaVideojuegosPage));
         }
     }
 }
