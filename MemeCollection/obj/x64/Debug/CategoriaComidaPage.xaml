@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock Text="Comida" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,0,929" HorizontalAlignment="Left"/>
+        <TextBlock Text="Comida" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20,0,0,0"/>
     </Grid>
 </Page>
 

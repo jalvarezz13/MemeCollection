@@ -50,44 +50,88 @@ namespace MemeCollection
             }
         }
 
-        private void openPane(object sender, PointerRoutedEventArgs e)
-        {
-            svMenuCategorias.IsPaneOpen = true;
-        }
-
-        private void closePane(object sender, PointerRoutedEventArgs e)
-        {
-            svMenuCategorias.IsPaneOpen = false;
-        }
-
         private void irCategoriaComida(object sender, PointerRoutedEventArgs e)
         {
             frmCategoria.Navigate(typeof(CategoriaComidaPage));
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
+            if (Width <= 360)
+            {
+                svMenuCategorias.IsPaneOpen = false;
+                svMenuCategorias.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
         }
 
         private void irCategoriaDeportes(object sender, PointerRoutedEventArgs e)
         {
             frmCategoria.Navigate(typeof(CategoriaDeportesPage));
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
+            if (Width <= 360)
+            {
+                svMenuCategorias.IsPaneOpen = false;
+                svMenuCategorias.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
         }
 
         private void irCategoriaFamosos(object sender, PointerRoutedEventArgs e)
         {
             frmCategoria.Navigate(typeof(CategoriaFamososPage));
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
+            if (Width <= 360)
+            {
+                svMenuCategorias.IsPaneOpen = false;
+                svMenuCategorias.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
         }
 
         private void irCategoriaInformatica(object sender, PointerRoutedEventArgs e)
         {
             frmCategoria.Navigate(typeof(CategoriaInformaticaPage));
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
+            if (Width <= 360)
+            {
+                svMenuCategorias.IsPaneOpen = false;
+                svMenuCategorias.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
         }
 
         private void irCategoriaPeliculas(object sender, PointerRoutedEventArgs e)
         {
             frmCategoria.Navigate(typeof(CategoriaPeliculasPage));
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
+            if (Width <= 360)
+            {
+                svMenuCategorias.IsPaneOpen = false;
+                svMenuCategorias.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
         }
 
         private void irCategoriaVidejuegos(object sender, PointerRoutedEventArgs e)
         {
             frmCategoria.Navigate(typeof(CategoriaVideojuegosPage));
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
+            if (Width <= 360)
+            {
+                svMenuCategorias.IsPaneOpen = false;
+                svMenuCategorias.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
+        }
+
+        private void openPanel(object sender, PointerRoutedEventArgs e)
+        {
+            svMenuCategorias.IsPaneOpen = true;
+            svMenuCategorias.DisplayMode = SplitViewDisplayMode.CompactInline;
+        }
+
+        private void closePanel(object sender, PointerRoutedEventArgs e)
+        {
+            svMenuCategorias.IsPaneOpen = false;
+            svMenuCategorias.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
+            if (Width <= 360)
+            {
+                svMenuCategorias.IsPaneOpen = false;
+                svMenuCategorias.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
         }
     }
 }

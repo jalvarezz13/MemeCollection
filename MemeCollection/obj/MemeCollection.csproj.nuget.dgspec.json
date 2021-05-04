@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chipe\\source\\repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj": {}
+    "C:\\Users\\javie\\Source\\Repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chipe\\source\\repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj": {
+    "C:\\Users\\javie\\Source\\Repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chipe\\source\\repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj",
+        "projectUniqueName": "C:\\Users\\javie\\Source\\Repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj",
         "projectName": "MemeCollection",
-        "projectPath": "C:\\Users\\chipe\\source\\repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj",
-        "packagesPath": "C:\\Users\\chipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chipe\\source\\repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\obj\\",
+        "projectPath": "C:\\Users\\javie\\Source\\Repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj",
+        "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javie\\Source\\Repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\chipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

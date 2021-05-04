@@ -14,13 +14,12 @@
             <RowDefinition Height="37*"/>
         </Grid.RowDefinitions>
         <TextBlock Text="Recientes" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Stretch"/>
-        <GridView Margin="10,10,0,5" Grid.Row="1">
+        <GridView Margin="10,10,10,5" Grid.Row="1">
+            <local:memeUserControl XYFocusLeftNavigationStrategy="Auto"/>
             <local:memeUserControl/>
             <local:memeUserControl/>
             <local:memeUserControl/>
             <local:memeUserControl/>
-            <local:memeUserControl/>
-            <TextBlock Text="Esto es un texto de prueba para IPO2, hola que tal" FontSize="30" TextWrapping="Wrap"/>
         </GridView>
     </Grid>
 </Page>
