@@ -69,5 +69,20 @@ namespace MemeCollection
                 svMenu.DisplayMode = SplitViewDisplayMode.Overlay;
             }
         }
+
+        private void irTienda(object sender, PointerRoutedEventArgs e)
+        {
+            frmMain.Navigate(typeof(TiendaPage));
+        }
+
+        private void irAcercaDe(object sender, PointerRoutedEventArgs e)
+        {
+            frmMain.Navigate(typeof(AcercaDePage));
+        }
+
+        private void irAjustes(object sender, PointerRoutedEventArgs e)
+        {
+            frmMain.Navigate(typeof(AjustesPage));
+        }
     }
 }

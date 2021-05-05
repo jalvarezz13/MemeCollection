@@ -37,6 +37,8 @@
       <RootProperty Name="Foreground" />
       <RootEvent Name="PointerReleased" />
     </RootType>
+    <RootType FullName="MemeCollection.AcercaDePage" />
+    <RootType FullName="MemeCollection.AjustesPage" />
     <RootType FullName="MemeCollection.CategoriaComidaPage" />
     <RootType FullName="MemeCollection.CategoriaDeportesPage" />
     <RootType FullName="MemeCollection.CategoriaFamososPage" />
@@ -107,5 +109,6 @@
       <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="MemeCollection.RecientesPage" />
+    <RootType FullName="MemeCollection.TiendaPage" />
   </Roots.RootTypes>
 </Roots>

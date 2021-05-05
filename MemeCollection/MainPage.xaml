@@ -37,15 +37,15 @@
                     </Grid.RowDefinitions>
                     <SymbolIcon x:Name="iconRecientes" Grid.Row="0" Margin="4,4,4,4" Symbol="Favorite" PointerReleased="irRecientes"></SymbolIcon>
                     <SymbolIcon x:Name="iconCategorias" Grid.Row="1" Margin="4,4,4,4" Symbol="AllApps" PointerReleased="irCategorias"></SymbolIcon>
-                    <SymbolIcon x:Name="iconTienda" Grid.Row="2" Margin="4,4,4,4" Symbol="Shop"></SymbolIcon>
-                    <SymbolIcon x:Name="iconAcercaDe" Grid.Row="3" Margin="4,4,4,4" Symbol="Help"></SymbolIcon>
-                    <SymbolIcon x:Name="iconAjustes" Grid.Row="4" Margin="4,4,4,4" Symbol="Setting"></SymbolIcon>
+                    <SymbolIcon x:Name="iconTienda" Grid.Row="2" Margin="4,4,4,4" Symbol="Shop" PointerReleased="irTienda"></SymbolIcon>
+                    <SymbolIcon x:Name="iconAcercaDe" Grid.Row="3" Margin="4,4,4,4" Symbol="Help" PointerReleased="irAcercaDe"></SymbolIcon>
+                    <SymbolIcon x:Name="iconAjustes" Grid.Row="4" Margin="4,4,4,4" Symbol="Setting" PointerReleased="irAjustes"></SymbolIcon>
                     
                     <TextBlock x:Name="txtRecientes" Grid.Row="0" Grid.Column="1" Margin="4,4,4,4" Text="Recientes" PointerReleased="irRecientes"></TextBlock>
                     <TextBlock x:Name="txtCategorias" Grid.Row="1" Grid.Column="1" Margin="4,4,4,4" Text="Categorías" PointerReleased="irCategorias"></TextBlock>
-                    <TextBlock x:Name="txtTienda" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Tienda"></TextBlock>
-                    <TextBlock x:Name="txtAcercaDe" Grid.Row="3" Grid.Column="1" Margin="4,4,4,4" Text="Acerca de"></TextBlock>
-                    <TextBlock x:Name="txtAjustes" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Ajustes"></TextBlock>
+                    <TextBlock x:Name="txtTienda" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Tienda" PointerReleased="irTienda"></TextBlock>
+                    <TextBlock x:Name="txtAcercaDe" Grid.Row="3" Grid.Column="1" Margin="4,4,4,4" Text="Acerca de" PointerReleased="irAcercaDe"></TextBlock>
+                    <TextBlock x:Name="txtAjustes" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Ajustes" PointerReleased="irAjustes"></TextBlock>
                 </Grid>
             </SplitView.Pane>
             <Frame x:Name="frmMain" Grid.Column="1" Grid.Row="1" FontSize="30" FontWeight="Bold"/>

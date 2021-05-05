@@ -51,6 +51,8 @@ Assets\Wide310x150Logo.scale-125.png
 Assets\Wide310x150Logo.scale-150.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
+AcercaDePage.xbf
+AjustesPage.xbf
 App.xbf
 CategoriaComidaPage.xbf
 CategoriaDeportesPage.xbf
@@ -63,6 +65,7 @@ MainPage.xbf
 MemeCollection.xr.xml
 memeUserControl.xbf
 RecientesPage.xbf
+TiendaPage.xbf
 Images\imgGuardar.png
 Images\imgLikeOff.png
 Images\imgLikeOn.png
