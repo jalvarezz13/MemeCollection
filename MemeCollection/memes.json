@@ -1,0 +1,102 @@
+{
+  "recientes": {
+    "01": {
+      "Titulo": "Rajoy",
+      "Descripcion": "Esta es una prueba de descripcion del meme de Rajoy",
+      "Categoria": "Recientes",
+      "Calificacion": 7,
+      "Foto": "/Images/Memes/Recientes/meme1.jpg"
+    },
+
+    "02": {
+      "Titulo": "Abuela",
+      "Descripcion": "Esta es una prueba de descripcion",
+      "Categoria": "Recientes",
+      "Calificacion": 6,
+      "Foto": "/Images/Memes/Recientes/meme2.jpg"
+    },
+
+    "03": {
+      "Titulo": "AdamSadler",
+      "Descripcion": "Esta es una prueba de descripcion",
+      "Categoria": "Recientes",
+      "Calificacion": 6,
+      "Foto": "/Images/Memes/Recientes/meme3.jpg"
+    },
+
+    "04": {
+      "Titulo": "TomYJerry",
+      "Descripcion": "Esta es una prueba de descripcion",
+      "Categoria": "Recientes",
+      "Calificacion": 6,
+      "Foto": "/Images/Memes/Recientes/meme4.jpg"
+    },
+
+    "05": {
+      "Titulo": "Batman",
+      "Descripcion": "Esta es una prueba de descripcion",
+      "Categoria": "Recientes",
+      "Calificacion": 6,
+      "Foto": "/Images/Memes/Recientes/meme5.jpg"
+    },
+
+    "06": {
+      "Titulo": "Correr",
+      "Descripcion": "Esta es una prueba de descripcion",
+      "Categoria": "Recientes",
+      "Calificacion": 6,
+      "Foto": "/Images/Memes/Recientes/meme6.jpg"
+    },
+
+    "07": {
+      "Titulo": "Einstein",
+      "Descripcion": "Esta es una prueba de descripcion",
+      "Categoria": "Recientes",
+      "Calificacion": 6,
+      "Foto": "/Images/Memes/Recientes/meme7.jpg"
+    },
+
+    "08": {
+      "Titulo": "MartyFiebre",
+      "Descripcion": "Esta es una prueba de descripcion",
+      "Categoria": "Recientes",
+      "Calificacion": 6,
+      "Foto": "/Images/Memes/Recientes/meme8.jpg"
+    },
+
+    "09": {
+      "Titulo": "Nuggets",
+      "Descripcion": "Esta es una prueba de descripcion",
+      "Categoria": "Recientes",
+      "Calificacion": 6,
+      "Foto": "/Images/Memes/Recientes/meme9.jpg"
+    },
+
+    "10": {
+      "Titulo": "Sevilla",
+      "Descripcion": "Esta es una prueba de descripcion",
+      "Categoria": "Recientes",
+      "Calificacion": 6,
+      "Foto": "/Images/Memes/Recientes/meme10.jpg"
+    }
+
+  },
+
+  "comida":{
+    "001": {
+      "Titulo": "Rajoy",
+      "Descripcion": "Esta es una prueba de descripcion del meme de Rajoy",
+      "Categoria": "Recientes",
+      "Calificacion": 7,
+      "Foto": "/Images/Memes/Recientes/meme2.jpg"
+    },
+
+    "002": {
+      "Titulo": "Rajoy",
+      "Descripcion": "Esta es una prueba de descripcion del meme de Rajoy",
+      "Categoria": "Famosos",
+      "Calificacion": 6,
+      "Foto": "/Images/Memes/Recientes/meme2.jpg"
+    }
+  }
+}

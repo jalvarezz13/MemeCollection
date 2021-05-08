@@ -295,3 +295,8 @@ C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaPa
 C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Debug\AcercaDePage.xbf
 C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Debug\AjustesPage.xbf
 C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaPage.xbf
+C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Debug\tiendaUserControl.g.i.cs
+C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Debug\tiendaUserControl.g.cs
+C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Debug\tiendaUserControl.xaml
+C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Debug\tiendaUserControl.xbf
+C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Debug\tiendaUserControl.xbf

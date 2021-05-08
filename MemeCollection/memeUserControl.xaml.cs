@@ -20,6 +20,31 @@ namespace MemeCollection
 {
     public sealed partial class memeUserControl : UserControl
     {
+
+        public string titulo
+        {
+            get { return txtMemePrincipal.Text; }
+            set { this.txtMemePrincipal.Text = value; }
+        }
+
+        public string categoria
+        {
+            get { return this.categoria; }
+            set { this.categoria = value; }
+        }
+
+        public int calificacion
+        {
+            get { return this.calificacion; }
+            set { this.calificacion = value; }
+        }
+
+        public BitmapImage ruta
+        {
+            get { return new BitmapImage(new Uri(imgMemePrincipal.Source.ToString())); }
+            set { imgMemePrincipal.Source = value; }
+        }
+
         public memeUserControl()
         {
             this.InitializeComponent();
@@ -29,8 +54,9 @@ namespace MemeCollection
 
         private void pulsarLike(object sender, PointerRoutedEventArgs e)
         {
-
             imgLikeButton.Source = new BitmapImage(new Uri("ms-appx:///Images/imgLikeOn.png"));
         }
     }
 }
+
+

@@ -21,8 +21,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-        <TextBlock x:ConnectionId='2' x:Name="txtMemePrincipal" Margin="5,5,5,5" TextWrapping="Wrap" Grid.ColumnSpan="3"><Run Text="Titulo"/><Run Text=" del meme"/></TextBlock>
-        <Image x:ConnectionId='3' x:Name="imgMemePrincipal" Grid.Row="1" Source="https://www.elbutanero.com/content/uploads/images/June2018/IMG-20180601-WA0024.jpg" Stretch="Uniform" Grid.ColumnSpan="4" FocusVisualSecondaryBrush="#99FFFFFF" Margin="0,3,0,3"/>
+        <TextBlock x:ConnectionId='2' x:Name="txtMemePrincipal" Margin="5,5,5,5" TextWrapping="Wrap" Grid.ColumnSpan="3" Text="Titulo del meme"/>
+        <Image x:ConnectionId='3' x:Name="imgMemePrincipal" Grid.Row="1" Source="Images/Memes/Recientes/meme1.jpg" Stretch="Fill" Grid.ColumnSpan="4" FocusVisualSecondaryBrush="#99FFFFFF" Margin="0,3,0,3"/>
         <Image x:ConnectionId='4' x:Name="imgLikeButton" Grid.Column="3" Source="/Images/imgLikeOff.png" Margin="5,5,5,5"                             />
         <Image HorizontalAlignment="Left" Height="20" Grid.Row="2" VerticalAlignment="Center" Width="20" Source="/Images/imgVisitas.png" Margin="10,0,0,0"/>
         <Image HorizontalAlignment="Left" Height="16" Grid.Row="2" Width="16" Source="/Images/imgLikes.png" Grid.Column="1" Margin="10,0,0,0" Stretch="Uniform" VerticalAlignment="Center"/>
@@ -30,9 +30,6 @@
         <TextBlock x:ConnectionId='5' x:Name="txtVistas" Grid.Row="2" Text="0" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="40,2,0,4" FocusVisualPrimaryBrush="White" Foreground="Black" FontWeight="Normal"/>
         <TextBlock x:ConnectionId='6' x:Name="txtLikes" Grid.Row="2" Text="0" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="40,2,58,4" FocusVisualPrimaryBrush="White" Foreground="Black" FontWeight="Normal" Grid.ColumnSpan="2" Grid.Column="1"/>
         <TextBlock Grid.Row="2" Text="Guardar" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="30,2,0,4" FocusVisualPrimaryBrush="White" Foreground="Black" FontWeight="Normal" Grid.ColumnSpan="2" Grid.Column="2"/>
-
-
-
 
     </Grid>
 </UserControl>

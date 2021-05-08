@@ -220,6 +220,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\imgaddCarrito.png">
+      <PackagePath>Images\imgaddCarrito.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\imgGuardar.png">
       <PackagePath>Images\imgGuardar.png</PackagePath>
     </AppxPackagedFile>
@@ -257,6 +260,159 @@
     <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Comida\Abuela5.jpg">
+      <PackagePath>Images\Memes\Comida\Abuela5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Comida\Grasa7.jpg">
+      <PackagePath>Images\Memes\Comida\Grasa7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Comida\Macarron6.jpg">
+      <PackagePath>Images\Memes\Comida\Macarron6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Comida\Mono8.jpg">
+      <PackagePath>Images\Memes\Comida\Mono8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Comida\Nuggets3.jpg">
+      <PackagePath>Images\Memes\Comida\Nuggets3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Comida\Pizzas1.jpg">
+      <PackagePath>Images\Memes\Comida\Pizzas1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Comida\Pringel2.jpg">
+      <PackagePath>Images\Memes\Comida\Pringel2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Comida\Tarta4.jpg">
+      <PackagePath>Images\Memes\Comida\Tarta4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Deportes\Hazard1.jpg">
+      <PackagePath>Images\Memes\Deportes\Hazard1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Deportes\PSG2.jpg">
+      <PackagePath>Images\Memes\Deportes\PSG2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Deportes\Sevilla3.jpg">
+      <PackagePath>Images\Memes\Deportes\Sevilla3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Famosos\donald4.jpg">
+      <PackagePath>Images\Memes\Famosos\donald4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Famosos\Frank6.jpg">
+      <PackagePath>Images\Memes\Famosos\Frank6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Famosos\Messi5.jpg">
+      <PackagePath>Images\Memes\Famosos\Messi5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Peliculas\Batman1.jpg">
+      <PackagePath>Images\Memes\Peliculas\Batman1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Peliculas\Futuro2.jpg">
+      <PackagePath>Images\Memes\Peliculas\Futuro2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme1.jpg">
+      <PackagePath>Images\Memes\Recientes\meme1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme10.jpg">
+      <PackagePath>Images\Memes\Recientes\meme10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme2.jpg">
+      <PackagePath>Images\Memes\Recientes\meme2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme5.jpg">
+      <PackagePath>Images\Memes\Recientes\meme5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme6.jpg">
+      <PackagePath>Images\Memes\Recientes\meme6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme7.jpg">
+      <PackagePath>Images\Memes\Recientes\meme7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme8.jpg">
+      <PackagePath>Images\Memes\Recientes\meme8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme9.jpg">
+      <PackagePath>Images\Memes\Recientes\meme9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\Correr3.jpg">
+      <PackagePath>Images\Memes\Videojuegos\Correr3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\Muro2.jpg">
+      <PackagePath>Images\Memes\Videojuegos\Muro2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\Teclado1.jpg">
+      <PackagePath>Images\Memes\Videojuegos\Teclado1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\Tetris4.jpg">
+      <PackagePath>Images\Memes\Videojuegos\Tetris4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Deportes\Baloncesto3.jpeg">
+      <PackagePath>Images\Memes\Deportes\Baloncesto3.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Deportes\Baloncesto5.jpeg">
+      <PackagePath>Images\Memes\Deportes\Baloncesto5.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Deportes\Pelota6.jpeg">
+      <PackagePath>Images\Memes\Deportes\Pelota6.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Deportes\Wii4.jpeg">
+      <PackagePath>Images\Memes\Deportes\Wii4.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Famosos\Ibai1.jpeg">
+      <PackagePath>Images\Memes\Famosos\Ibai1.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Famosos\Lápiz2.jpeg">
+      <PackagePath>Images\Memes\Famosos\Lápiz2.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Famosos\Meme3.jpeg">
+      <PackagePath>Images\Memes\Famosos\Meme3.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Informatica\Abuelo3.jpeg">
+      <PackagePath>Images\Memes\Informatica\Abuelo3.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Informatica\Administrador6.jpeg">
+      <PackagePath>Images\Memes\Informatica\Administrador6.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Informatica\Antivirus1.jpeg">
+      <PackagePath>Images\Memes\Informatica\Antivirus1.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Informatica\Disdo2.jpeg">
+      <PackagePath>Images\Memes\Informatica\Disdo2.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Informatica\Profes4.jpeg">
+      <PackagePath>Images\Memes\Informatica\Profes4.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Informatica\Ram5.jpeg">
+      <PackagePath>Images\Memes\Informatica\Ram5.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Peliculas\Calvito1.jpeg">
+      <PackagePath>Images\Memes\Peliculas\Calvito1.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Peliculas\Cine6.jpeg">
+      <PackagePath>Images\Memes\Peliculas\Cine6.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Peliculas\FastAndFurius2.jpeg">
+      <PackagePath>Images\Memes\Peliculas\FastAndFurius2.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Peliculas\Flash4.jpeg">
+      <PackagePath>Images\Memes\Peliculas\Flash4.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Peliculas\Meme5.jpeg">
+      <PackagePath>Images\Memes\Peliculas\Meme5.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Peliculas\Mortal3.jpeg">
+      <PackagePath>Images\Memes\Peliculas\Mortal3.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme3.jpeg">
+      <PackagePath>Images\Memes\Recientes\meme3.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme4.jpeg">
+      <PackagePath>Images\Memes\Recientes\meme4.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\Marcas3.jpeg">
+      <PackagePath>Images\Memes\Videojuegos\Marcas3.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\Pokemon1.jpeg">
+      <PackagePath>Images\Memes\Videojuegos\Pokemon1.jpeg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -305,6 +461,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaPage.xbf">
       <PackagePath>TiendaPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Debug\tiendaUserControl.xbf">
+      <PackagePath>tiendaUserControl.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

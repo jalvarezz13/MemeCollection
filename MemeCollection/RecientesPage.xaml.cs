@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -24,7 +25,14 @@ namespace MemeCollection
     {
         public RecientesPage()
         {
-            this.InitializeComponent();
+            this.InitializeComponent();            
+            cargarMemes();
+        }
+
+        private void cargarMemes()
+        {
+            this.meme1.titulo = "Rajoy";
+            this.meme1.ruta =  new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme2.jpg"));
         }
     }
 }
