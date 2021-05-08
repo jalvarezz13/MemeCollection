@@ -65,7 +65,13 @@ MainPage.xbf
 MemeCollection.xr.xml
 memeUserControl.xbf
 RecientesPage.xbf
+TiendaCamisetasPage.xbf
+TiendaCarpetasPage.xbf
+TiendaFavoritosPage.xbf
+TiendaGorrasPage.xbf
 TiendaPage.xbf
+TiendaSudaderasPage.xbf
+TiendaTazasPage.xbf
 tiendaUserControl.xbf
 Images\imgaddCarrito.png
 Images\imgGuardar.png

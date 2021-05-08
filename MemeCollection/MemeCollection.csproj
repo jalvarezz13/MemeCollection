@@ -156,8 +156,26 @@
     <Compile Include="RecientesPage.xaml.cs">
       <DependentUpon>RecientesPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TiendaCamisetasPage.xaml.cs">
+      <DependentUpon>TiendaCamisetasPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TiendaCarpetasPage.xaml.cs">
+      <DependentUpon>TiendaCarpetasPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TiendaFavoritosPage.xaml.cs">
+      <DependentUpon>TiendaFavoritosPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TiendaGorrasPage.xaml.cs">
+      <DependentUpon>TiendaGorrasPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TiendaPage.xaml.cs">
       <DependentUpon>TiendaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TiendaSudaderasPage.xaml.cs">
+      <DependentUpon>TiendaSudaderasPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TiendaTazasPage.xaml.cs">
+      <DependentUpon>TiendaTazasPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="tiendaUserControl.xaml.cs">
       <DependentUpon>tiendaUserControl.xaml</DependentUpon>
@@ -333,7 +351,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="TiendaCamisetasPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TiendaCarpetasPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TiendaFavoritosPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TiendaGorrasPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TiendaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TiendaSudaderasPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TiendaTazasPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

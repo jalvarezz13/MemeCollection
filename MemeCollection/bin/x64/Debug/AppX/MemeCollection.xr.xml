@@ -109,7 +109,24 @@
       <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="MemeCollection.RecientesPage" />
-    <RootType FullName="MemeCollection.TiendaPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="FontSize" />
+    </RootType>
     <RootType FullName="MemeCollection.tiendaUserControl" />
+    <RootType FullName="MemeCollection.TiendaCamisetasPage" />
+    <RootType FullName="MemeCollection.TiendaCarpetasPage" />
+    <RootType FullName="MemeCollection.TiendaFavoritosPage" />
+    <RootType FullName="MemeCollection.TiendaGorrasPage" />
+    <RootType FullName="MemeCollection.TiendaPage" />
+    <RootType FullName="MemeCollection.TiendaSudaderasPage" />
+    <RootType FullName="MemeCollection.TiendaTazasPage" />
   </Roots.RootTypes>
 </Roots>

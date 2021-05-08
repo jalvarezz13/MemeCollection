@@ -26,5 +26,73 @@ namespace MemeCollection
         {
             this.InitializeComponent();
         }
+        private void MainPage_VisibleBoundsChanged(Windows.UI.ViewManagement.ApplicationView sender, object args)
+        {
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
+
+            if (Width >= 720)
+            {
+                svMenuArtículos.IsPaneOpen = true;
+                svMenuArtículos.DisplayMode = SplitViewDisplayMode.CompactInline;
+            }
+            else if (Width >= 360)
+            {
+                svMenuArtículos.IsPaneOpen = false;
+                svMenuArtículos.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            }
+            else
+            {
+                svMenuArtículos.IsPaneOpen = false;
+                svMenuArtículos.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
+        }
+
+        private void irTiendaCamisetas(object sender, PointerRoutedEventArgs e)
+        {
+            frmTienda.Navigate(typeof(TiendaCamisetasPage));
+        }
+
+        private void irTiendaSudaderas(object sender, PointerRoutedEventArgs e)
+        {
+            frmTienda.Navigate(typeof(TiendaSudaderasPage));
+        }
+
+        private void irTiendaGorras(object sender, PointerRoutedEventArgs e)
+        {
+            frmTienda.Navigate(typeof(TiendaGorrasPage));
+        }
+
+        private void irTiendaTazas(object sender, PointerRoutedEventArgs e)
+        {
+            frmTienda.Navigate(typeof(TiendaTazasPage));
+        }
+
+        private void irTiendaCarpetas(object sender, PointerRoutedEventArgs e)
+        {
+            frmTienda.Navigate(typeof(TiendaCarpetasPage));
+        }
+
+        private void irTiendaFavoritos(object sender, PointerRoutedEventArgs e)
+        {
+            frmTienda.Navigate(typeof(TiendaFavoritosPage));
+        }
+        private void openPanel(object sender, PointerRoutedEventArgs e)
+        {
+            svMenuArtículos.IsPaneOpen = true;
+            svMenuArtículos.DisplayMode = SplitViewDisplayMode.CompactInline;
+        }
+
+        private void closePanel(object sender, PointerRoutedEventArgs e)
+        {
+            svMenuArtículos.IsPaneOpen = false;
+            svMenuArtículos.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
+            if (Width <= 360)
+            {
+                svMenuArtículos.IsPaneOpen = false;
+                svMenuArtículos.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
+        }
     }
+
 }

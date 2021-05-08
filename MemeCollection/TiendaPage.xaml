@@ -9,6 +9,36 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock Text="Tienda" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20,0,0,0"/>
+        <SplitView x:Name="svMenuArtículos" CompactPaneLength="30" IsPaneOpen="True"  DisplayMode="CompactInline">
+            <SplitView.Pane>
+                <Grid Background="#FF40AC8E" PointerEntered="openPanel" PointerExited="closePanel">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+
+                    <TextBlock x:Name="txtCamisetas" Grid.Row="0" Grid.Column="1" Margin="4,4,4,4" Text="Camisetas" PointerReleased="irTiendaCamisetas"/>
+                    <TextBlock x:Name="txtSudaderas" Grid.Row="1" Grid.Column="1" Margin="4,4,4,4" Text="Sudaderas" PointerReleased="irTiendaSudaderas"/>
+                    <TextBlock x:Name="txtGorras" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Gorras" PointerReleased="irTiendaGorras"/>
+                    <TextBlock x:Name="txtTazas" Grid.Row="3" Grid.Column="1" Margin="4,4,4,4" Text="Tazas" PointerReleased="irTiendaTazas"/>
+                    <TextBlock x:Name="txtCarpetas" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Carpetas" PointerReleased="irTiendaCarpetas"/>
+                    <TextBlock x:Name="txtFavoritos" Grid.Row="5" Grid.Column="1" Margin="4,4,4,4" Text="Favoritos" PointerReleased="irTiendaFavoritos"/>
+
+
+
+                </Grid>
+            </SplitView.Pane>
+            <Frame x:Name="frmTienda" Grid.Column="1" Grid.Row="1" FontSize="30" FontWeight="Bold"/>
+        </SplitView>
     </Grid>
 </Page>
