@@ -233,6 +233,38 @@
     <Content Include="Assets\Wide310x150Logo.scale-125.png" />
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Images\imgLikesDado.png" />
+    <Content Include="Images\Productos\Camisetas\Camiseta1.jpg" />
+    <Content Include="Images\Productos\Camisetas\Camiseta2.jpg" />
+    <Content Include="Images\Productos\Camisetas\Camiseta3.jpg" />
+    <Content Include="Images\Productos\Camisetas\Camiseta4.jpg" />
+    <Content Include="Images\Productos\Camisetas\Camiseta5.jpg" />
+    <Content Include="Images\Productos\Camisetas\Camiseta6.jpg" />
+    <Content Include="Images\Productos\Favoritos\Favoritos1.jpg" />
+    <Content Include="Images\Productos\Favoritos\Favoritos2.jpg" />
+    <Content Include="Images\Productos\Favoritos\Favoritos3.jpg" />
+    <Content Include="Images\Productos\Favoritos\Favoritos4.jpg" />
+    <Content Include="Images\Productos\Favoritos\Favoritos5.jpg" />
+    <Content Include="Images\Productos\Favoritos\Favoritos6.jpg" />
+    <Content Include="Images\Productos\Favoritos\Favoritos7.jpg" />
+    <Content Include="Images\Productos\Gorras\Gorra1.jpg" />
+    <Content Include="Images\Productos\Gorras\Gorra2.jpg" />
+    <Content Include="Images\Productos\Gorras\Gorra3.jpg" />
+    <Content Include="Images\Productos\Gorras\Gorra4.jpg" />
+    <Content Include="Images\Productos\Gorras\Gorra5.jpg" />
+    <Content Include="Images\Productos\Gorras\Gorra6.jpg" />
+    <Content Include="Images\Productos\Sudaderas\Sudadera1.jpg" />
+    <Content Include="Images\Productos\Sudaderas\Sudadera2.jpg" />
+    <Content Include="Images\Productos\Sudaderas\Sudadera3.jpg" />
+    <Content Include="Images\Productos\Sudaderas\Sudadera4.jpg" />
+    <Content Include="Images\Productos\Sudaderas\Sudadera5.jpg" />
+    <Content Include="Images\Productos\Sudaderas\Sudadera6.jpg" />
+    <Content Include="Images\Productos\Tazas\Taza1.jpg" />
+    <Content Include="Images\Productos\Tazas\Taza2.jpg" />
+    <Content Include="Images\Productos\Tazas\Taza3.jpg" />
+    <Content Include="Images\Productos\Tazas\Taza4.jpg" />
+    <Content Include="Images\Productos\Tazas\Taza5.jpg" />
+    <Content Include="Images\Productos\Tazas\Taza6.jpg" />
     <Content Include="Images\imgaddCarrito.png" />
     <Content Include="Images\imgGuardar.png" />
     <Content Include="Images\imgLikeOff.png" />
@@ -395,6 +427,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="memes.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Productos\Carpetas\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

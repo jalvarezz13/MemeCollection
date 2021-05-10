@@ -9,12 +9,27 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1253*"/>
+            <ColumnDefinition Width="247*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="3*"/>
             <RowDefinition Height="37*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Sudaderas" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Stretch"/>
-        <GridView  x:Name="grid" Margin="10,10,10,5" Grid.Row="1">
+        <TextBlock Text="Sudaderas" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,0,0" HorizontalAlignment="Left" Width="243"/>
+        <ComboBox x:Name="cbTienda" Margin="350,5,103,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Image x:Name="imgaddCarrito" HorizontalAlignment="Left" VerticalAlignment="Stretch" Source="/Images/imgaddCarrito.png" Margin="0,5,0,0" Grid.Column="1"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="100,20,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Stretch" FontSize="30"/>
+        <GridView  x:Name="grid" Margin="10,10,10,5" Grid.Row="1" Grid.ColumnSpan="2">
+            <local:tiendaUserControl x:Name="producto1"/>
+            <local:tiendaUserControl x:Name="producto2"/>
+            <local:tiendaUserControl x:Name="producto3"/>
+            <local:tiendaUserControl x:Name="producto4"/>
+            <local:tiendaUserControl x:Name="producto5"/>
+            <local:tiendaUserControl x:Name="producto6"/>
+            
+
 
         </GridView>
     </Grid>
