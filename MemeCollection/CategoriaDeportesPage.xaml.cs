@@ -39,7 +39,7 @@ namespace MemeCollection
             this.meme3.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme3.jpg"));
             this.meme4.titulo = "Pelota de Basket";
             this.meme4.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme4.jpg"));
-            this.meme5.titulo = "Entrenador";
+            this.meme5.titulo = "PSG";
             this.meme5.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme5.jpg"));
             this.meme6.titulo = "Sevilla";
             this.meme6.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme6.jpg"));

@@ -25,8 +25,6 @@
             <local:memeUserControl x:ConnectionId='10' x:Name="meme8"/>
             <local:memeUserControl x:ConnectionId='11' x:Name="meme9"/>
             <local:memeUserControl x:ConnectionId='12' x:Name="meme10"/>
-            <local:memeUserControl x:ConnectionId='13' x:Name="meme11"/>
-
         </GridView>
     </Grid>
 

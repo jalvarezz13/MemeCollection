@@ -51,9 +51,6 @@ namespace MemeCollection
             this.meme9.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme9.jpg"));
             this.meme10.titulo = "Sevilla";
             this.meme10.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme10.jpg"));
-            this.meme10.titulo = "Pikachu";
-            this.meme10.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme11.jpg"));
-
         }
     }
 }
