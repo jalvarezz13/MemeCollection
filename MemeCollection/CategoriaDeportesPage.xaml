@@ -9,6 +9,20 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock Text="Deportes" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,0,0" HorizontalAlignment="Stretch"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="37*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Deportes" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Stretch"/>
+        <GridView  x:Name="grid" Margin="10,10,10,5" Grid.Row="1">
+            <local:memeUserControl x:Name="meme1"/>
+            <local:memeUserControl x:Name="meme2"/>
+            <local:memeUserControl x:Name="meme3"/>
+            <local:memeUserControl x:Name="meme4"/>
+            <local:memeUserControl x:Name="meme5"/>
+            <local:memeUserControl x:Name="meme6"/>
+            <local:memeUserControl x:Name="meme7"/>
+        </GridView>
     </Grid>
+
 </Page>

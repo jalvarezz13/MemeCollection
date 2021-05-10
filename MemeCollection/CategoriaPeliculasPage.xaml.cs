@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -25,6 +26,27 @@ namespace MemeCollection
         public CategoriaPeliculasPage()
         {
             this.InitializeComponent();
+            cargarMemes();
+        }
+
+        private void cargarMemes()
+        {
+            this.meme1.titulo = "Batman";
+            this.meme1.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Peliculas/meme1.jpg"));
+            this.meme2.titulo = "La Roca";
+            this.meme2.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Peliculas/meme2.jpg"));
+            this.meme3.titulo = "Vengadores";
+            this.meme3.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Peliculas/meme3.jpg"));
+            this.meme4.titulo = "A todo gas onda vital";
+            this.meme4.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Peliculas/meme4.jpg"));
+            this.meme5.titulo = "Insectos";
+            this.meme5.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Peliculas/meme5.jpg"));
+            this.meme6.titulo = "Zombies";
+            this.meme6.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Peliculas/meme6.jpg"));
+            this.meme7.titulo = "Marty McFly con fibre";
+            this.meme7.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Peliculas/meme7.jpg"));
+            this.meme8.titulo = "Mortal Kombat";
+            this.meme8.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Peliculas/meme8.jpg"));
         }
     }
 }

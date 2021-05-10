@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -25,6 +26,23 @@ namespace MemeCollection
         public CategoriaVideojuegosPage()
         {
             this.InitializeComponent();
+            cargarMemes();
+        }
+
+        private void cargarMemes()
+        {
+            this.meme1.titulo = "Correr";
+            this.meme1.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Videojuegos/meme1.jpg"));
+            this.meme2.titulo = "Bob Esponja y empresas";
+            this.meme2.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Videojuegos/meme2.jpg"));
+            this.meme3.titulo = "Tetris";
+            this.meme3.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Videojuegos/meme3.jpg"));
+            this.meme4.titulo = "Work/After Work";
+            this.meme4.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Videojuegos/meme4.jpg"));
+            this.meme5.titulo = "Pokemon Go";
+            this.meme5.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Videojuegos/meme5.jpg"));
+            this.meme6.titulo = "Pared sospechosa";
+            this.meme6.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Videojuegos/meme6.jpg"));
         }
     }
 }

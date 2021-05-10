@@ -9,10 +9,9 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
-      <RootProperty Name="Margin" />
+      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Background" />
       <RootProperty Name="ColumnDefinitions" />
-      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
@@ -43,6 +42,15 @@
     </RootType>
     <RootType FullName="MemeCollection.AcercaDePage" />
     <RootType FullName="MemeCollection.AjustesPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+      <RootProperty Name="MinHeight" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="MemeCollection.memeUserControl" />
     <RootType FullName="MemeCollection.CategoriaComidaPage" />
     <RootType FullName="MemeCollection.CategoriaDeportesPage" />
     <RootType FullName="MemeCollection.CategoriaFamososPage" />
@@ -58,10 +66,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-      <RootProperty Name="MinHeight" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
       <RootProperty Name="Margin" />
@@ -103,22 +107,11 @@
       <RootProperty Name="Width" />
       <RootEvent Name="PointerReleased" />
     </RootType>
-    <RootType FullName="MemeCollection.memeUserControl" />
-    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Items" />
-    </RootType>
     <RootType FullName="MemeCollection.RecientesPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="MemeCollection.tiendaUserControl" />
     <RootType FullName="MemeCollection.TiendaCamisetasPage" />

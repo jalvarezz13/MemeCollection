@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -25,6 +26,25 @@ namespace MemeCollection
         public CategoriaDeportesPage()
         {
             this.InitializeComponent();
+            cargarMemes();
+        }
+
+        private void cargarMemes()
+        {
+            this.meme1.titulo = "Baloncesto y hamburguesa";
+            this.meme1.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme1.jpg"));
+            this.meme2.titulo = "Baloncesto profesional";
+            this.meme2.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme2.jpg"));
+            this.meme3.titulo = "Hazard";
+            this.meme3.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme3.jpg"));
+            this.meme4.titulo = "Pelota de Basket";
+            this.meme4.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme4.jpg"));
+            this.meme5.titulo = "Entrenador";
+            this.meme5.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme5.jpg"));
+            this.meme6.titulo = "Sevilla";
+            this.meme6.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme6.jpg"));
+            this.meme7.titulo = "Wii Basket";
+            this.meme7.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Deportes/meme7.jpg"));
         }
     }
 }

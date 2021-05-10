@@ -9,7 +9,22 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock Text="Peliculas" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,0,0" HorizontalAlignment="Stretch"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="37*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Peliculas" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Stretch"/>
+        <GridView x:ConnectionId='2'  x:Name="grid" Margin="10,10,10,5" Grid.Row="1">
+            <local:memeUserControl x:ConnectionId='3' x:Name="meme1"/>
+            <local:memeUserControl x:ConnectionId='4' x:Name="meme2"/>
+            <local:memeUserControl x:ConnectionId='5' x:Name="meme3"/>
+            <local:memeUserControl x:ConnectionId='6' x:Name="meme4"/>
+            <local:memeUserControl x:ConnectionId='7' x:Name="meme5"/>
+            <local:memeUserControl x:ConnectionId='8' x:Name="meme6"/>
+            <local:memeUserControl x:ConnectionId='9' x:Name="meme7"/>
+            <local:memeUserControl x:ConnectionId='10' x:Name="meme8"/>
+        </GridView>
     </Grid>
+
 </Page>
 

@@ -32,7 +32,28 @@ namespace MemeCollection
         private void cargarMemes()
         {
             this.meme1.titulo = "Rajoy";
-            this.meme1.ruta =  new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme2.jpg"));
+            this.meme1.ruta =  new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme1.jpg"));
+            this.meme2.titulo = "Abuela";
+            this.meme2.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme2.jpg"));
+            this.meme3.titulo = "Adam Sadler";
+            this.meme3.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme3.jpg"));
+            this.meme4.titulo = "Tom y Jerry";
+            this.meme4.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme4.jpg"));
+            this.meme5.titulo = "Batman";
+            this.meme5.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme5.jpg"));
+            this.meme6.titulo = "Correr";
+            this.meme6.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme6.jpg"));
+            this.meme7.titulo = "Einstein";
+            this.meme7.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme7.jpg"));
+            this.meme8.titulo = "Marty McFly con fibre";
+            this.meme8.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme8.jpg"));
+            this.meme9.titulo = "Nuggets";
+            this.meme9.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme9.jpg"));
+            this.meme10.titulo = "Sevilla";
+            this.meme10.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme10.jpg"));
+            this.meme10.titulo = "Pikachu";
+            this.meme10.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Recientes/meme11.jpg"));
+
         }
     }
 }

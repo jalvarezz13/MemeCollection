@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -25,6 +26,23 @@ namespace MemeCollection
         public CategoriaFamososPage()
         {
             this.InitializeComponent();
+            cargarMemes();
+        }
+
+        private void cargarMemes()
+        {
+            this.meme1.titulo = "Pato Donald";
+            this.meme1.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Famosos/meme1.jpg"));
+            this.meme2.titulo = "Einstein";
+            this.meme2.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Famosos/meme2.jpg"));
+            this.meme3.titulo = "Adam Sadler";
+            this.meme3.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Famosos/meme3.jpg"));
+            this.meme4.titulo = "Ibai";
+            this.meme4.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Famosos/meme4.jpg"));
+            this.meme5.titulo = "Leonardo DiCaprio";
+            this.meme5.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Famosos/meme5.jpg"));
+            this.meme6.titulo = "Messi";
+            this.meme6.ruta = new BitmapImage(new Uri("ms-appx:///Images/Memes/Famosos/meme6.jpg"));
         }
     }
 }

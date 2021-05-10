@@ -30,7 +30,6 @@
             <local:tiendaUserControl x:ConnectionId='12' x:Name="meme8"/>
 
         </GridView>
-        <TextBox Margin="1351,5,56,0" Text="0" TextWrapping="Wrap" FontSize="30"/>
 
 
 
