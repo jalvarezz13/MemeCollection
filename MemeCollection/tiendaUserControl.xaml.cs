@@ -56,18 +56,20 @@ namespace MemeCollection
             
         }
 
-        private void darLike(object sender, PointerRoutedEventArgs e)
+        private void pulsarLike(object sender, PointerRoutedEventArgs e)
         {
-            //No tiene en cuenta este if no detecta al pinchar la foto origen. Si lo podeis mirar
-            if (imgLikeTiendaButton.Source == new BitmapImage(new Uri("ms-appx:///Images/imgLikesDado.png")))
+            if (imgLikeOnTiendaButton.Visibility == Visibility.Collapsed)
             {
-                imgLikeTiendaButton.Source = new BitmapImage(new Uri("ms-appx:///Images/imgLikes.png"));
-                likes -= 1;
-                txtLikes.Text = "" + likes;
+                imgLikeOnTiendaButton.Visibility = Visibility.Visible;
+                imgLikeOffTiendaButton.Visibility = Visibility.Collapsed;
+                txtLikes.Text = "" + (Convert.ToInt32(txtLikes.Text.ToString()) + 1);
             }
-            imgLikeTiendaButton.Source = new BitmapImage(new Uri("ms-appx:///Images/imgLikesDado.png"));
-            likes += 1;
-            txtLikes.Text = ""+likes;
+            else
+            {
+                imgLikeOffTiendaButton.Visibility = Visibility.Visible;
+                imgLikeOnTiendaButton.Visibility = Visibility.Collapsed;
+                txtLikes.Text = "" + (Convert.ToInt32(txtLikes.Text.ToString()) - 1);
+            }
         }
     }
 }

@@ -267,8 +267,6 @@
     <Content Include="Images\Productos\Tazas\Taza6.jpg" />
     <Content Include="Images\imgaddCarrito.png" />
     <Content Include="Images\imgGuardar.png" />
-    <Content Include="Images\imgLikeOff.png" />
-    <Content Include="Images\imgLikeOn.png" />
     <Content Include="Images\imgLikes.png" />
     <Content Include="Images\imgVisitas.png" />
     <Content Include="Images\meme1.jpg" />

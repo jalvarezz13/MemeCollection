@@ -54,7 +54,20 @@ namespace MemeCollection
 
         private void pulsarLike(object sender, PointerRoutedEventArgs e)
         {
-            imgLikeButton.Source = new BitmapImage(new Uri("ms-appx:///Images/imgLikeOn.png"));
+            if (imgLikeOnButton.Visibility == Visibility.Collapsed)
+            {
+                imgLikeOnButton.Visibility = Visibility.Visible;
+                imgLikeOffButton.Visibility = Visibility.Collapsed;
+                imgLikes.Source = new BitmapImage(new Uri("ms-appx:///Images/imgLikesDado.png"));
+                txtLikes.Text = "" + (Convert.ToInt32(txtLikes.Text.ToString()) + 1);
+            }
+            else
+            {
+                imgLikeOffButton.Visibility = Visibility.Visible;
+                imgLikeOnButton.Visibility = Visibility.Collapsed;
+                imgLikes.Source = new BitmapImage(new Uri("ms-appx:///Images/imgLikes.png"));
+                txtLikes.Text = "" + (Convert.ToInt32(txtLikes.Text.ToString()) - 1);
+            }
         }
     }
 }
