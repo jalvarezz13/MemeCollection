@@ -20,7 +20,6 @@ namespace MemeCollection
 {
     public sealed partial class tiendaUserControl : UserControl
     {
-        
         public string titulo
         {
             get { return txtProducto.Text; }
