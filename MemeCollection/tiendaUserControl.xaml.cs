@@ -20,7 +20,7 @@ namespace MemeCollection
 {
     public sealed partial class tiendaUserControl : UserControl
     {
-        int likes;
+        
         public string titulo
         {
             get { return txtProducto.Text; }
@@ -47,8 +47,7 @@ namespace MemeCollection
         public tiendaUserControl()
         {
             this.InitializeComponent();
-            likes = new Random().Next(1000, 10000);
-            txtLikes.Text =""+ likes;
+            txtLikes.Text = String.Format("{0}", new Random().Next(0, 1000));
         }
 
         private void anadirCarrito(object sender, PointerRoutedEventArgs e)
