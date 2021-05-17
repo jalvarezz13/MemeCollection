@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MSI</Machine>
+    <WindowsUser>chipe</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>294449c9-3437-4c05-8057-de5c53e9733c</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Javier Álvarez</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E00C4A5D288A21DFFCCCA41D519FCC4DCBEC44C0458C6A0181047ACE9CA001AA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>294449c9-3437-4c05-8057-de5c53e9733c_1.0.0.0_x64__gy65df12986jy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>294449c9-3437-4c05-8057-de5c53e9733c_gy65df12986jy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>294449c9-3437-4c05-8057-de5c53e9733c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Javier Álvarez</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T16:35:31.047</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\iconoApp.png">
+      <PackagePath>Assets\iconoApp.png</PackagePath>
+      <Modified>2021-05-17T14:39:22.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2021-05-17T14:39:22.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-17T14:39:22.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2020-11-20T07:50:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\imgaddCarrito.png">
+      <PackagePath>Images\imgaddCarrito.png</PackagePath>
+      <Modified>2021-05-17T14:39:22.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\imgGuardar.png">
+      <PackagePath>Images\imgGuardar.png</PackagePath>
+      <Modified>2021-05-17T14:39:22.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\imgLikes.png">
+      <PackagePath>Images\imgLikes.png</PackagePath>
+      <Modified>2021-05-17T14:39:22.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\imgLikesDado.png">
+      <PackagePath>Images\imgLikesDado.png</PackagePath>
+      <Modified>2021-05-17T14:39:22.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\imgVisitas.png">
+      <PackagePath>Images\imgVisitas.png</PackagePath>
+      <Modified>2021-05-17T14:39:22.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\meme1.jpg">
+      <PackagePath>Images\meme1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Comida\meme1.jpg">
+      <PackagePath>Images\Memes\Comida\meme1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Comida\meme2.jpg">
+      <PackagePath>Images\Memes\Comida\meme2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Comida\meme3.jpg">
+      <PackagePath>Images\Memes\Comida\meme3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Comida\meme4.jpg">
+      <PackagePath>Images\Memes\Comida\meme4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Comida\meme5.jpg">
+      <PackagePath>Images\Memes\Comida\meme5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Comida\meme6.jpg">
+      <PackagePath>Images\Memes\Comida\meme6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Comida\meme7.jpg">
+      <PackagePath>Images\Memes\Comida\meme7.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Comida\meme8.jpg">
+      <PackagePath>Images\Memes\Comida\meme8.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Deportes\meme1.jpg">
+      <PackagePath>Images\Memes\Deportes\meme1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Deportes\meme2.jpg">
+      <PackagePath>Images\Memes\Deportes\meme2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Deportes\meme3.jpg">
+      <PackagePath>Images\Memes\Deportes\meme3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Deportes\meme4.jpg">
+      <PackagePath>Images\Memes\Deportes\meme4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Deportes\meme5.jpg">
+      <PackagePath>Images\Memes\Deportes\meme5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Deportes\meme6.jpg">
+      <PackagePath>Images\Memes\Deportes\meme6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Deportes\meme7.jpg">
+      <PackagePath>Images\Memes\Deportes\meme7.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Famosos\meme1.jpg">
+      <PackagePath>Images\Memes\Famosos\meme1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Famosos\meme2.jpg">
+      <PackagePath>Images\Memes\Famosos\meme2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Famosos\meme3.jpg">
+      <PackagePath>Images\Memes\Famosos\meme3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Famosos\meme4.jpg">
+      <PackagePath>Images\Memes\Famosos\meme4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Famosos\meme5.jpg">
+      <PackagePath>Images\Memes\Famosos\meme5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Famosos\meme6.jpg">
+      <PackagePath>Images\Memes\Famosos\meme6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Informatica\meme1.jpg">
+      <PackagePath>Images\Memes\Informatica\meme1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Informatica\meme2.jpg">
+      <PackagePath>Images\Memes\Informatica\meme2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Informatica\meme3.jpg">
+      <PackagePath>Images\Memes\Informatica\meme3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.182</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Informatica\meme4.jpg">
+      <PackagePath>Images\Memes\Informatica\meme4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Informatica\meme5.jpg">
+      <PackagePath>Images\Memes\Informatica\meme5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Informatica\meme6.jpg">
+      <PackagePath>Images\Memes\Informatica\meme6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Peliculas\meme1.jpg">
+      <PackagePath>Images\Memes\Peliculas\meme1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Peliculas\meme2.jpg">
+      <PackagePath>Images\Memes\Peliculas\meme2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Peliculas\meme3.jpg">
+      <PackagePath>Images\Memes\Peliculas\meme3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Peliculas\meme4.jpg">
+      <PackagePath>Images\Memes\Peliculas\meme4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Peliculas\meme5.jpg">
+      <PackagePath>Images\Memes\Peliculas\meme5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Peliculas\meme6.jpg">
+      <PackagePath>Images\Memes\Peliculas\meme6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Peliculas\meme7.jpg">
+      <PackagePath>Images\Memes\Peliculas\meme7.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Peliculas\meme8.jpg">
+      <PackagePath>Images\Memes\Peliculas\meme8.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Recientes\meme1.jpg">
+      <PackagePath>Images\Memes\Recientes\meme1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Recientes\meme10.jpg">
+      <PackagePath>Images\Memes\Recientes\meme10.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Recientes\meme2.jpg">
+      <PackagePath>Images\Memes\Recientes\meme2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Recientes\meme3.jpg">
+      <PackagePath>Images\Memes\Recientes\meme3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Recientes\meme4.jpg">
+      <PackagePath>Images\Memes\Recientes\meme4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Recientes\meme5.jpg">
+      <PackagePath>Images\Memes\Recientes\meme5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Recientes\meme6.jpg">
+      <PackagePath>Images\Memes\Recientes\meme6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Recientes\meme7.jpg">
+      <PackagePath>Images\Memes\Recientes\meme7.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Recientes\meme8.jpg">
+      <PackagePath>Images\Memes\Recientes\meme8.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Recientes\meme9.jpg">
+      <PackagePath>Images\Memes\Recientes\meme9.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Videojuegos\meme1.jpg">
+      <PackagePath>Images\Memes\Videojuegos\meme1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Videojuegos\meme2.jpg">
+      <PackagePath>Images\Memes\Videojuegos\meme2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Videojuegos\meme3.jpg">
+      <PackagePath>Images\Memes\Videojuegos\meme3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Videojuegos\meme4.jpg">
+      <PackagePath>Images\Memes\Videojuegos\meme4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Videojuegos\meme5.jpg">
+      <PackagePath>Images\Memes\Videojuegos\meme5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Memes\Videojuegos\meme6.jpg">
+      <PackagePath>Images\Memes\Videojuegos\meme6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Camisetas\Camiseta1.jpg">
+      <PackagePath>Images\Productos\Camisetas\Camiseta1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Camisetas\Camiseta2.jpg">
+      <PackagePath>Images\Productos\Camisetas\Camiseta2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Camisetas\Camiseta3.jpg">
+      <PackagePath>Images\Productos\Camisetas\Camiseta3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Camisetas\Camiseta4.jpg">
+      <PackagePath>Images\Productos\Camisetas\Camiseta4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Camisetas\Camiseta5.jpg">
+      <PackagePath>Images\Productos\Camisetas\Camiseta5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Camisetas\Camiseta6.jpg">
+      <PackagePath>Images\Productos\Camisetas\Camiseta6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Favoritos\Favoritos1.jpg">
+      <PackagePath>Images\Productos\Favoritos\Favoritos1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Favoritos\Favoritos2.jpg">
+      <PackagePath>Images\Productos\Favoritos\Favoritos2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Favoritos\Favoritos3.jpg">
+      <PackagePath>Images\Productos\Favoritos\Favoritos3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Favoritos\Favoritos4.jpg">
+      <PackagePath>Images\Productos\Favoritos\Favoritos4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Favoritos\Favoritos5.jpg">
+      <PackagePath>Images\Productos\Favoritos\Favoritos5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Favoritos\Favoritos6.jpg">
+      <PackagePath>Images\Productos\Favoritos\Favoritos6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Favoritos\Favoritos7.jpg">
+      <PackagePath>Images\Productos\Favoritos\Favoritos7.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Gorras\Gorra1.jpg">
+      <PackagePath>Images\Productos\Gorras\Gorra1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Gorras\Gorra2.jpg">
+      <PackagePath>Images\Productos\Gorras\Gorra2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Gorras\Gorra3.jpg">
+      <PackagePath>Images\Productos\Gorras\Gorra3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Gorras\Gorra4.jpg">
+      <PackagePath>Images\Productos\Gorras\Gorra4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Gorras\Gorra5.jpg">
+      <PackagePath>Images\Productos\Gorras\Gorra5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Gorras\Gorra6.jpg">
+      <PackagePath>Images\Productos\Gorras\Gorra6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Sudaderas\Sudadera1.jpg">
+      <PackagePath>Images\Productos\Sudaderas\Sudadera1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Sudaderas\Sudadera2.jpg">
+      <PackagePath>Images\Productos\Sudaderas\Sudadera2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Sudaderas\Sudadera3.jpg">
+      <PackagePath>Images\Productos\Sudaderas\Sudadera3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Sudaderas\Sudadera4.jpg">
+      <PackagePath>Images\Productos\Sudaderas\Sudadera4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Sudaderas\Sudadera5.jpg">
+      <PackagePath>Images\Productos\Sudaderas\Sudadera5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Sudaderas\Sudadera6.jpg">
+      <PackagePath>Images\Productos\Sudaderas\Sudadera6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Tazas\Taza1.jpg">
+      <PackagePath>Images\Productos\Tazas\Taza1.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Tazas\Taza2.jpg">
+      <PackagePath>Images\Productos\Tazas\Taza2.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Tazas\Taza3.jpg">
+      <PackagePath>Images\Productos\Tazas\Taza3.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Tazas\Taza4.jpg">
+      <PackagePath>Images\Productos\Tazas\Taza4.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Tazas\Taza5.jpg">
+      <PackagePath>Images\Productos\Tazas\Taza5.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\Images\Productos\Tazas\Taza6.jpg">
+      <PackagePath>Images\Productos\Tazas\Taza6.jpg</PackagePath>
+      <Modified>2021-05-17T14:39:22.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\MemeCollection.dll">
+      <PackagePath>MemeCollection.dll</PackagePath>
+      <Modified>2021-05-17T16:35:30.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\MemeCollection.exe">
+      <PackagePath>MemeCollection.exe</PackagePath>
+      <Modified>2021-05-17T16:35:31.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\MemeCollection.pdb">
+      <PackagePath>MemeCollection.pdb</PackagePath>
+      <Modified>2021-05-17T16:35:31.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-05-17T16:18:41.050</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\chipe\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29512-01\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chipe\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29512-01\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\chipe\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.8-rel-29512-01\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chipe\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.8-rel-29512-01\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\chipe\.nuget\packages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.8-rel-29512-01\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chipe\.nuget\packages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.8-rel-29512-01\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\chipe\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.8-rel-29512-01\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chipe\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.8-rel-29512-01\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\chipe\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.9-rel-29512-01\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chipe\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.9-rel-29512-01\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\chipe\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.9-rel-29512-01\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chipe\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.9-rel-29512-01\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\chipe\.nuget\packages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.9-rel-29512-01\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chipe\.nuget\packages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.9-rel-29512-01\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\chipe\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.2.9-rel-29512-01\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chipe\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.2.9-rel-29512-01\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

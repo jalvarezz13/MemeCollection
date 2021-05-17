@@ -20,6 +20,8 @@ namespace MemeCollection
 {
     public sealed partial class tiendaUserControl : UserControl
     {
+        string root;
+
         public string titulo
         {
             get { return txtProducto.Text; }
@@ -40,9 +42,15 @@ namespace MemeCollection
 
         public BitmapImage ruta
         {
-            get { return new BitmapImage(new Uri(imgArticuloPrincipal.Source.ToString())); }
             set { imgArticuloPrincipal.Source = value; }
         }
+
+        public string ruta_string
+        {
+            get { return root; }
+            set { this.root = value;}
+        }
+
         public tiendaUserControl()
         {
             this.InitializeComponent();

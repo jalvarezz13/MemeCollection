@@ -1,0 +1,8 @@
+﻿"C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Release\ilc\in\MemeCollection.exe"
+"C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Release\ilc\in\Microsoft.Toolkit.Uwp.Notifications.dll"
+/Lib:"C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Release\ilc\in"
+/Lib:"C:\Users\chipe\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.9-rel-29512-01\tools\x64\ilc\lib\Private"
+/WinMD:"C:\Users\chipe\source\repos\MeMeCollection\MemeCollection\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{\"IsOptedIn\":true,\"HostName\":\"Dev14\",\"AppInsightsInstrumentationKey\":\"f144292e-e3b2-4011-ac90-20e5c03fbce5\",\"AsimovInstrumentationKey\":\"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70\",\"AppId\":1001,\"UserId\":\"c9cb80a0-56a4-41d3-a806-aa925759cc9d\",\"Id\":\"7ddb9076-bae5-43fd-9065-d8c750e82c47\",\"ProcessStartTime\":637568617097321857}"
+/RdXmlPath:"C:\Users\chipe\.nuget\packages\microsoft.net.native.compiler\2.2.9-rel-29512-01\tools\LibraryXML"
+/RunOnlyPreDR
