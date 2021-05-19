@@ -31,7 +31,7 @@
                     <TextBlock x:Name="txtSudaderas" Grid.Row="1" Grid.Column="1" Margin="4,4,4,4" Text="Sudaderas" PointerReleased="irTiendaSudaderas"/>
                     <TextBlock x:Name="txtGorras" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Gorras" PointerReleased="irTiendaGorras"/>
                     <TextBlock x:Name="txtTazas" Grid.Row="3" Grid.Column="1" Margin="4,4,4,4" Text="Tazas" PointerReleased="irTiendaTazas"/>
-                    <TextBlock x:Name="txtCarpetas" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Carpetas" PointerReleased="irTiendaCarpetas"/>
+                    <TextBlock x:Name="txtCalcetines" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Calcetines" PointerReleased="irTiendaCalcetines"/>
                     <TextBlock x:Name="txtFavoritos" Grid.Row="5" Grid.Column="1" Margin="4,4,4,4" Text="Favoritos" PointerReleased="irTiendaFavoritos"/>
 
 

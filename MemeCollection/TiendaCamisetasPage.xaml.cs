@@ -126,7 +126,7 @@ namespace MemeCollection
                         aux1.titulo = ordenPrecio.ElementAt(0).titulo;
                         aux1.ruta_string = ordenPrecio.ElementAt(0).ruta_string;
                         aux1.precio = Convert.ToString(ordenPrecio.ElementAt(0).precio);
-                        aux1.like = Convert.ToString(ordenPrecio.ElementAt(5).like);
+                        aux1.like = Convert.ToString(ordenPrecio.ElementAt(0).like);
 
                         aux2.titulo = ordenPrecio.ElementAt(1).titulo;
                         aux2.ruta_string = ordenPrecio.ElementAt(1).ruta_string;
@@ -212,7 +212,7 @@ namespace MemeCollection
                         aux4.like = Convert.ToString(ordenLike.ElementAt(3).like);
 
                         aux5.titulo = ordenLike.ElementAt(4).titulo;
-                        aux5.ruta_string = ordenLike.ElementAt(1).ruta_string;
+                        aux5.ruta_string = ordenLike.ElementAt(4).ruta_string;
                         aux5.precio = Convert.ToString(ordenLike.ElementAt(4).precio);
                         aux5.like = Convert.ToString(ordenLike.ElementAt(4).like); ;
 

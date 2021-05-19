@@ -314,7 +314,6 @@ C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\D
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\memeUserControl.xbf
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\RecientesPage.xbf
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaCamisetasPage.xbf
-C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaCarpetasPage.xbf
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaFavoritosPage.xbf
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaGorrasPage.xbf
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaPage.xbf
@@ -362,8 +361,6 @@ C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\D
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\RecientesPage.g.cs
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCamisetasPage.g.i.cs
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCamisetasPage.g.cs
-C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCarpetasPage.g.i.cs
-C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCarpetasPage.g.cs
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaFavoritosPage.g.i.cs
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaFavoritosPage.g.cs
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaGorrasPage.g.i.cs
@@ -391,7 +388,6 @@ C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\D
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\memeUserControl.xaml
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\RecientesPage.xaml
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCamisetasPage.xaml
-C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCarpetasPage.xaml
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaFavoritosPage.xaml
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaGorrasPage.xaml
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaPage.xaml
@@ -412,7 +408,6 @@ C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\D
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\memeUserControl.xbf
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\RecientesPage.xbf
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCamisetasPage.xbf
-C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCarpetasPage.xbf
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaFavoritosPage.xbf
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaGorrasPage.xbf
 C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaPage.xbf
@@ -474,3 +469,8 @@ C:\Users\chipe\Source\Repos\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaFa
 C:\Users\chipe\Source\Repos\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaGorrasPage.xbf
 C:\Users\chipe\Source\Repos\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaSudaderasPage.xbf
 C:\Users\chipe\Source\Repos\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaTazasPage.xbf
+C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaCalcetinesPage.xbf
+C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCalcetinesPage.g.i.cs
+C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCalcetinesPage.g.cs
+C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCalcetinesPage.xaml
+C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\TiendaCalcetinesPage.xbf

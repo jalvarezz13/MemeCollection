@@ -65,8 +65,8 @@ MainPage.xbf
 MemeCollection.xr.xml
 memeUserControl.xbf
 RecientesPage.xbf
+TiendaCalcetinesPage.xbf
 TiendaCamisetasPage.xbf
-TiendaCarpetasPage.xbf
 TiendaFavoritosPage.xbf
 TiendaGorrasPage.xbf
 TiendaPage.xbf
@@ -130,6 +130,12 @@ Images\Memes\Videojuegos\meme3.jpg
 Images\Memes\Videojuegos\meme4.jpg
 Images\Memes\Videojuegos\meme5.jpg
 Images\Memes\Videojuegos\meme6.jpg
+Images\Productos\Calcetines\Calcetines1.jpg
+Images\Productos\Calcetines\Calcetines2.jpg
+Images\Productos\Calcetines\Calcetines3.jpg
+Images\Productos\Calcetines\Calcetines4.jpg
+Images\Productos\Calcetines\Calcetines5.jpg
+Images\Productos\Calcetines\Calcetines6.jpg
 Images\Productos\Camisetas\Camiseta1.jpg
 Images\Productos\Camisetas\Camiseta2.jpg
 Images\Productos\Camisetas\Camiseta3.jpg

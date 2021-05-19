@@ -116,12 +116,11 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="MemeCollection.tiendaUserControl" />
+    <RootType FullName="MemeCollection.TiendaCalcetinesPage" />
     <RootType FullName="MemeCollection.TiendaCamisetasPage" />
-    <RootType FullName="MemeCollection.TiendaCarpetasPage" />
     <RootType FullName="MemeCollection.TiendaFavoritosPage" />
     <RootType FullName="MemeCollection.TiendaGorrasPage" />
     <RootType FullName="MemeCollection.TiendaPage" />

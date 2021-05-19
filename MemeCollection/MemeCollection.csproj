@@ -156,11 +156,11 @@
     <Compile Include="RecientesPage.xaml.cs">
       <DependentUpon>RecientesPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TiendaCalcetinesPage.xaml.cs">
+      <DependentUpon>TiendaCalcetinesPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TiendaCamisetasPage.xaml.cs">
       <DependentUpon>TiendaCamisetasPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="TiendaCarpetasPage.xaml.cs">
-      <DependentUpon>TiendaCarpetasPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="TiendaFavoritosPage.xaml.cs">
       <DependentUpon>TiendaFavoritosPage.xaml</DependentUpon>
@@ -234,6 +234,12 @@
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Images\imgLikesDado.png" />
+    <Content Include="Images\Productos\Calcetines\Calcetines1.jpg" />
+    <Content Include="Images\Productos\Calcetines\Calcetines2.jpg" />
+    <Content Include="Images\Productos\Calcetines\Calcetines3.jpg" />
+    <Content Include="Images\Productos\Calcetines\Calcetines4.jpg" />
+    <Content Include="Images\Productos\Calcetines\Calcetines5.jpg" />
+    <Content Include="Images\Productos\Calcetines\Calcetines6.jpg" />
     <Content Include="Images\Productos\Camisetas\Camiseta1.jpg" />
     <Content Include="Images\Productos\Camisetas\Camiseta2.jpg" />
     <Content Include="Images\Productos\Camisetas\Camiseta3.jpg" />
@@ -382,11 +388,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TiendaCamisetasPage.xaml">
+    <Page Include="TiendaCalcetinesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TiendaCarpetasPage.xaml">
+    <Page Include="TiendaCamisetasPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -426,9 +432,7 @@
   <ItemGroup>
     <None Include="memes.json" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\Productos\Carpetas\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

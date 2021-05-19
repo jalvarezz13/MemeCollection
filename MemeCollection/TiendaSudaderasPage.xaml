@@ -18,9 +18,9 @@
             <RowDefinition Height="37*"/>
         </Grid.RowDefinitions>
         <TextBlock Text="Sudaderas" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,0,0" HorizontalAlignment="Left" Width="243"/>
-        <ComboBox x:Name="cbTienda" Margin="350,5,103,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <ComboBox x:Name="cbTienda" Margin="350,5,103,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="ordenarProductos"/>
         <Image x:Name="imgaddCarrito" HorizontalAlignment="Left" VerticalAlignment="Stretch" Source="/Images/imgaddCarrito.png" Margin="0,5,0,0" Grid.Column="1"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="100,20,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Stretch" FontSize="30"/>
+        <TextBlock x:Name="txtCompras" Grid.Column="1" HorizontalAlignment="Left" Margin="100,20,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Stretch" FontSize="30"/>
         <GridView  x:Name="grid" Margin="10,10,10,5" Grid.Row="1" Grid.ColumnSpan="2">
             <local:tiendaUserControl x:Name="producto1"/>
             <local:tiendaUserControl x:Name="producto2"/>

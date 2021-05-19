@@ -31,7 +31,7 @@
                     <TextBlock x:ConnectionId='5' x:Name="txtSudaderas" Grid.Row="1" Grid.Column="1" Margin="4,4,4,4" Text="Sudaderas"                                    />
                     <TextBlock x:ConnectionId='6' x:Name="txtGorras" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Gorras"                                 />
                     <TextBlock x:ConnectionId='7' x:Name="txtTazas" Grid.Row="3" Grid.Column="1" Margin="4,4,4,4" Text="Tazas"                                />
-                    <TextBlock x:ConnectionId='8' x:Name="txtCarpetas" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Carpetas"                                   />
+                    <TextBlock x:ConnectionId='8' x:Name="txtCalcetines" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Calcetines"                                     />
                     <TextBlock x:ConnectionId='9' x:Name="txtFavoritos" Grid.Row="5" Grid.Column="1" Margin="4,4,4,4" Text="Favoritos"                                    />
 
 

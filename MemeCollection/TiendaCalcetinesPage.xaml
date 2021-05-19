@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="MemeCollection.TiendaCalcetinesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MemeCollection"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1253*"/>
+            <ColumnDefinition Width="247*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="37*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Calcetines" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,0,0" HorizontalAlignment="Left" Width="239"/>
+        <ComboBox x:Name="cbTienda" Margin="350,5,80,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="ordenarProductos"/>
+        <Image x:Name="imgaddCarrito" HorizontalAlignment="Left" VerticalAlignment="Stretch" Source="/Images/imgaddCarrito.png" Margin="0,5,0,0" Grid.Column="1"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="100,20,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Stretch" FontSize="30"/>
+
+        <GridView  x:Name="grid" Margin="10,10,10,5" Grid.Row="1" Grid.ColumnSpan="2">
+            <local:tiendaUserControl x:Name="producto1"/>
+            <local:tiendaUserControl x:Name="producto2"/>
+            <local:tiendaUserControl x:Name="producto3"/>
+            <local:tiendaUserControl x:Name="producto4"/>
+            <local:tiendaUserControl x:Name="producto5"/>
+            <local:tiendaUserControl x:Name="producto6"/>
+          
+
+        </GridView>
+    </Grid>
+</Page>

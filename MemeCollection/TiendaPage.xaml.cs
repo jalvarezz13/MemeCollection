@@ -67,14 +67,13 @@ namespace MemeCollection
             frmTienda.Navigate(typeof(TiendaTazasPage));
         }
 
-        private void irTiendaCarpetas(object sender, PointerRoutedEventArgs e)
-        {
-            frmTienda.Navigate(typeof(TiendaCarpetasPage));
-        }
-
         private void irTiendaFavoritos(object sender, PointerRoutedEventArgs e)
         {
             frmTienda.Navigate(typeof(TiendaFavoritosPage));
+        }
+        private void irTiendaCalcetines(object sender, PointerRoutedEventArgs e)
+        {
+            frmTienda.Navigate(typeof(TiendaCalcetinesPage));
         }
         private void openPanel(object sender, PointerRoutedEventArgs e)
         {
@@ -93,6 +92,8 @@ namespace MemeCollection
                 svMenuArtículos.DisplayMode = SplitViewDisplayMode.Overlay;
             }
         }
+
+        
     }
 
 }
