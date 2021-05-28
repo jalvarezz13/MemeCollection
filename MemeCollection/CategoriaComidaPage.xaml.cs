@@ -26,6 +26,7 @@ namespace MemeCollection
         public CategoriaComidaPage()
         {
             this.InitializeComponent(); cargarMemes();
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
         }
 
         private void cargarMemes()

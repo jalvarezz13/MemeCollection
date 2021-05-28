@@ -14,12 +14,18 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Border Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF20CB9C">
-            <Button x:ConnectionId='14' x:Name="btnMenu" Margin="4"                     >
+            <Button x:ConnectionId='16' x:Name="btnMenu" Margin="4"                     >
                 <FontIcon Glyph="&#xE700;"></FontIcon>
             </Button>
         </Border>
-        <TextBlock Text="MeMe Collection" TextWrapping="Wrap" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="60,0,0,0" FontWeight="Bold" FontSize="22"/>
-        <SplitView x:ConnectionId='2' Grid.Row="1" x:Name="svMenu" PaneBackground="Gray" IsPaneOpen="True" CompactPaneLength="30" DisplayMode="CompactInline">
+        <TextBlock Text="MeMe Collection" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="60,0,0,0" FontWeight="Bold" FontSize="22" RequestedTheme="Default"/>
+        <Button x:ConnectionId='2' HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"                Margin="0,0,45,0">
+            <FontIcon Glyph="&#xF0D3;"></FontIcon>
+        </Button>
+        <Button x:ConnectionId='3' HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"                     >
+            <FontIcon Glyph="&#xF0D2;"></FontIcon>
+        </Button>
+        <SplitView x:ConnectionId='4' Grid.Row="1" x:Name="svMenu" PaneBackground="Gray" IsPaneOpen="True" CompactPaneLength="30" DisplayMode="CompactInline">
             <SplitView.Pane>
                 <Grid Background="#FF20CB9C">
                     <Grid.ColumnDefinitions>
@@ -30,26 +36,25 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*" MinHeight="810"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
                         <RowDefinition/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
 
                     </Grid.RowDefinitions>
-                    <SymbolIcon x:ConnectionId='3' x:Name="iconRecientes" Grid.Row="0" Margin="4,4,4,4" Symbol="Clock"                              ></SymbolIcon>
-                    <SymbolIcon x:ConnectionId='4' x:Name="iconCategorias" Grid.Row="1" Margin="4,4,4,4" Symbol="AllApps"                               ></SymbolIcon>
-                    <SymbolIcon x:ConnectionId='5' x:Name="iconTienda" Grid.Row="2" Margin="4,4,4,4" Symbol="Shop"                           ></SymbolIcon>
-                    <SymbolIcon x:ConnectionId='6' x:Name="iconAcercaDe" Grid.Row="4" Margin="4,4,4,4" Symbol="Help"                             ></SymbolIcon>
-                    <SymbolIcon x:ConnectionId='7' x:Name="iconAjustes" Grid.Row="5" Margin="4,4,4,4" Symbol="Setting"                            ></SymbolIcon>
+                    <SymbolIcon x:ConnectionId='5' x:Name="iconRecientes" Grid.Row="0" Margin="4,4,4,4" Symbol="Clock"                              ></SymbolIcon>
+                    <SymbolIcon x:ConnectionId='6' x:Name="iconCategorias" Grid.Row="1" Margin="4,4,4,4" Symbol="AllApps"                               ></SymbolIcon>
+                    <SymbolIcon x:ConnectionId='7' x:Name="iconTienda" Grid.Row="2" Margin="4,4,4,4" Symbol="Shop"                           ></SymbolIcon>
+                    <SymbolIcon x:ConnectionId='8' x:Name="iconAcercaDe" Grid.Row="4" Margin="4,4,4,4" Symbol="Help"                             ></SymbolIcon>
+                    <SymbolIcon x:ConnectionId='9' x:Name="iconAjustes" Grid.Row="5" Margin="4,4,4,4" Symbol="Setting"                            ></SymbolIcon>
 
-                    <TextBlock x:ConnectionId='8' x:Name="txtRecientes" Grid.Row="0" Grid.Column="1" Margin="4,4,4,4" Text="Recientes"                               FontSize="14"></TextBlock>
-                    <TextBlock x:ConnectionId='9' x:Name="txtCategorias" Grid.Row="1" Grid.Column="1" Margin="4,4,4,4" Text="Categorías"                                FontSize="14"></TextBlock>
-                    <TextBlock x:ConnectionId='10' x:Name="txtTienda" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Tienda"                            FontSize="14"></TextBlock>
-                    <TextBlock x:ConnectionId='11' x:Name="txtAcercaDe" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Acerca de"                              FontSize="14"/>
-                    <TextBlock x:ConnectionId='12' x:Name="txtAjustes" Grid.Row="5" Grid.Column="1" Margin="4,4,4,4" Text="Ajustes"                             FontSize="14"></TextBlock>
+                    <TextBlock x:ConnectionId='10' x:Name="txtRecientes" Grid.Row="0" Grid.Column="1" Margin="4,4,4,4" Text="Recientes"                               FontSize="14"></TextBlock>
+                    <TextBlock x:ConnectionId='11' x:Name="txtCategorias" Grid.Row="1" Grid.Column="1" Margin="4,4,4,4" Text="Categorías"                                FontSize="14"></TextBlock>
+                    <TextBlock x:ConnectionId='12' x:Name="txtTienda" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Tienda"                            FontSize="14"></TextBlock>
+                    <TextBlock x:ConnectionId='13' x:Name="txtAcercaDe" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Acerca de"                              FontSize="14"/>
+                    <TextBlock x:ConnectionId='14' x:Name="txtAjustes" Grid.Row="5" Grid.Column="1" Margin="4,4,4,4" Text="Ajustes"                             FontSize="14"></TextBlock>
                 </Grid>
             </SplitView.Pane>
-            <Frame x:ConnectionId='13' x:Name="frmMain" Grid.Column="1" Grid.Row="1" FontSize="30" FontWeight="Bold"/>
+            <Frame x:ConnectionId='15' x:Name="frmMain" Grid.Column="1" Grid.Row="1" FontSize="30" FontWeight="Bold"/>
 
 
         </SplitView>

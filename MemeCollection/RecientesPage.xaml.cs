@@ -25,7 +25,8 @@ namespace MemeCollection
     {
         public RecientesPage()
         {
-            this.InitializeComponent();            
+            this.InitializeComponent();
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             cargarMemes();
         }
 

@@ -5,6 +5,8 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Core;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -27,6 +29,8 @@ namespace MemeCollection
             this.InitializeComponent();
             Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().SetPreferredMinSize(new Size(320, 320));
             Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBoundsChanged += MainPage_VisibleBoundsChanged;
+            frmMain.Navigate(typeof(RecientesPage));
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
         }
 
         private void MainPage_VisibleBoundsChanged(Windows.UI.ViewManagement.ApplicationView sender, object args)
@@ -49,6 +53,22 @@ namespace MemeCollection
             }
         }
 
+        private void volver(object sender, RoutedEventArgs e)
+        {
+            if (frmMain.BackStack.Any())
+            {
+                frmMain.GoBack();
+            }
+        }
+
+        private void volverAlante(object sender, RoutedEventArgs e)
+        {
+            if (frmMain.ForwardStack.Any())
+            {
+                frmMain.GoForward();
+            }
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             svMenu.IsPaneOpen = !svMenu.IsPaneOpen;
@@ -63,6 +83,7 @@ namespace MemeCollection
         {
             var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
             frmMain.Navigate(typeof(CategoriasPage));
+            
             if (Width<360)
             {
                 svMenu.IsPaneOpen = false;
@@ -72,18 +93,31 @@ namespace MemeCollection
 
         private void irTienda(object sender, PointerRoutedEventArgs e)
         {
+            var Width = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Width;
             frmMain.Navigate(typeof(TiendaPage));
+            if (Width < 360)
+            {
+                svMenu.IsPaneOpen = false;
+                svMenu.DisplayMode = SplitViewDisplayMode.Overlay;
+            }
         }
 
         private void irAcercaDe(object sender, PointerRoutedEventArgs e)
         {
-            frmMain.Navigate(typeof(AcercaDePage));
+            //Como lo hacemos al final?
+            //frmMain.Navigate(typeof(AcercaDePage));
+
+            MessageDialog dialog = new MessageDialog("\nPrograma realizado por:\nJavier Álverz Páramo\nCarlos Mohedano Callejo\nJuan Muñoz Calvo\n\n","Acerca de MemeCollection");
+            dialog.Commands.Add(new UICommand("Vale", null));
+            dialog.DefaultCommandIndex = 0;
+            dialog.CancelCommandIndex = 1;
+            var cmd = dialog.ShowAsync();
         }
 
         private void irAjustes(object sender, PointerRoutedEventArgs e)
         {
-            frmMain.Navigate(typeof(AjustesPage));
-            
+            frmMain.Navigate(typeof(AjustesPage));            
         }
+
     }
 }

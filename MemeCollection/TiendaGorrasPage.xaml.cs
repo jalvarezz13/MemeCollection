@@ -57,7 +57,7 @@ namespace MemeCollection
             this.producto3.ruta_string = "ms-appx:///Images/Productos/Gorras/Gorra3.jpg";
             this.producto3.precio = "7.99";
 
-            this.producto4.titulo = "GOrra Gustavo";
+            this.producto4.titulo = "Gorra Gustavo";
             this.producto4.ruta = new BitmapImage(new Uri("ms-appx:///Images/Productos/Gorras/Gorra4.jpg"));
             this.producto4.ruta_string = "ms-appx:///Images/Productos/Gorras/Gorra4.jpg";
             this.producto4.precio = "15.99";

@@ -26,6 +26,7 @@ namespace MemeCollection
         public CategoriaInformaticaPage()
         {
             this.InitializeComponent();
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             cargarMemes();
         }
 

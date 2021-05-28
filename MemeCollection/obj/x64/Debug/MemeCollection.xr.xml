@@ -32,6 +32,7 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="RequestedTheme" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Foreground" />
@@ -44,7 +45,6 @@
     <RootType FullName="MemeCollection.AjustesPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
-      <RootProperty Name="MinHeight" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="Margin" />
@@ -85,6 +85,9 @@
       <RootProperty Name="Child" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontWeight" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
       <RootEvent Name="Click" />
@@ -109,7 +112,6 @@
       <RootProperty Name="AllowDrop" />
       <RootEvent Name="PointerReleased" />
       <RootEvent Name="PointerPressed" />
-      <RootEvent Name="PointerEntered" />
     </RootType>
     <RootType FullName="MemeCollection.RecientesPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
@@ -125,6 +127,10 @@
     </RootType>
     <RootType FullName="MemeCollection.tiendaUserControl" />
     <RootType FullName="MemeCollection.TiendaCalcetinesPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
+      <RootMethod Name="GetToolTip" />
+      <RootMethod Name="SetToolTip" />
+    </RootType>
     <RootType FullName="MemeCollection.TiendaCamisetasPage" />
     <RootType FullName="MemeCollection.TiendaFavoritosPage" />
     <RootType FullName="MemeCollection.TiendaGorrasPage" />

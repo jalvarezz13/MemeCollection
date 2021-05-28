@@ -18,7 +18,13 @@
                 <FontIcon Glyph="&#xE700;"></FontIcon>
             </Button>
         </Border>
-        <TextBlock Text="MeMe Collection" TextWrapping="Wrap" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="60,0,0,0" FontWeight="Bold" FontSize="22"/>
+        <TextBlock Text="MeMe Collection" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="60,0,0,0" FontWeight="Bold" FontSize="22" RequestedTheme="Default"/>
+        <Button HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" Click="volver" Margin="0,0,45,0">
+            <FontIcon Glyph="&#xF0D3;"></FontIcon>
+        </Button>
+        <Button HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" Click="volverAlante">
+            <FontIcon Glyph="&#xF0D2;"></FontIcon>
+        </Button>
         <SplitView Grid.Row="1" x:Name="svMenu" PaneBackground="Gray" IsPaneOpen="True" CompactPaneLength="30" DisplayMode="CompactInline">
             <SplitView.Pane>
                 <Grid Background="#FF20CB9C">
@@ -30,10 +36,9 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*" MinHeight="810"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
                         <RowDefinition/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
 
                     </Grid.RowDefinitions>
                     <SymbolIcon x:Name="iconRecientes" Grid.Row="0" Margin="4,4,4,4" Symbol="Clock" PointerReleased="irRecientes"></SymbolIcon>
