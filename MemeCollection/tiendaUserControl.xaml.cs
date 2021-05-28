@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Toolkit.Uwp.Notifications;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,8 +21,9 @@ namespace MemeCollection
 {
     public sealed partial class tiendaUserControl : UserControl
     {
+        
         string root;
-
+     
         public string titulo
         {
             get { return txtProducto.Text; }
@@ -55,11 +57,11 @@ namespace MemeCollection
         {
             this.InitializeComponent();
             txtLikes.Text = String.Format("{0}", new Random().Next(0, 1000));
-        }
+            cbTallas.Items.Add("Talla S");
+            cbTallas.Items.Add("Talla M");
+            cbTallas.Items.Add("Talla L");
+            cbTallas.Items.Add("Talla XL");
 
-        private void anadirCarrito(object sender, PointerRoutedEventArgs e)
-        {
-            
         }
 
         private void pulsarLike(object sender, PointerRoutedEventArgs e)
@@ -77,5 +79,11 @@ namespace MemeCollection
                 txtLikes.Text = "" + (Convert.ToInt32(txtLikes.Text.ToString()) - 1);
             }
         }
+
+        private void anadirCarrito(object sender, PointerRoutedEventArgs e)
+        {
+           
+        }
+      
     }
 }

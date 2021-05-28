@@ -83,6 +83,7 @@ namespace MemeCollection
         private void irAjustes(object sender, PointerRoutedEventArgs e)
         {
             frmMain.Navigate(typeof(AjustesPage));
+            
         }
     }
 }

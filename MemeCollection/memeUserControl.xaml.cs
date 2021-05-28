@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Toolkit.Uwp.Notifications;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,7 +21,7 @@ namespace MemeCollection
 {
     public sealed partial class memeUserControl : UserControl
     {
-
+        string root;
         public string titulo
         {
             get { return txtMemePrincipal.Text; }
@@ -41,8 +42,13 @@ namespace MemeCollection
 
         public BitmapImage ruta
         {
-            get { return new BitmapImage(new Uri(imgMemePrincipal.Source.ToString())); }
             set { imgMemePrincipal.Source = value; }
+        }
+
+        public string ruta_string
+        {
+            get { return root; }
+            set { this.root = value; }
         }
 
         public memeUserControl()
@@ -68,6 +74,12 @@ namespace MemeCollection
                 imgLikes.Source = new BitmapImage(new Uri("ms-appx:///Images/imgLikes.png"));
                 txtLikes.Text = "" + (Convert.ToInt32(txtLikes.Text.ToString()) - 1);
             }
+        }
+
+        private void guardarMeme(object sender, PointerRoutedEventArgs e)
+        {
+            new ToastContentBuilder().AddArgument("action", "Guardar").AddArgument("conversationId", 9813).AddText("Meme guardado").Show();
+           // new ToastContentBuilder().AddText("Would you like to order lunch today?").AddButton(new ToastButton("Yes", "action=orderLunch"){ActivationType = ToastActivationType.Background,ActivationOptions = new ToastActivationOptions(){AfterActivationBehavior = ToastAfterActivationBehavior.PendingUpdate}});
         }
     }
 }

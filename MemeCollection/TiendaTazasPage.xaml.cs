@@ -32,7 +32,7 @@ namespace MemeCollection
         public TiendaTazasPage()
         {
             this.InitializeComponent();
-
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             cbTienda.Items.Add("Ordenar de mayor a menor precio");
             cbTienda.Items.Add("Ordenar de menor a mayor precio");
             cbTienda.Items.Add("Ordenar de mas gustados a menos gustados");

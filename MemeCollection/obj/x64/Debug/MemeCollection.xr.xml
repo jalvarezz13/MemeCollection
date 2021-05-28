@@ -116,6 +116,11 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="MemeCollection.tiendaUserControl" />
@@ -126,5 +131,6 @@
     <RootType FullName="MemeCollection.TiendaPage" />
     <RootType FullName="MemeCollection.TiendaSudaderasPage" />
     <RootType FullName="MemeCollection.TiendaTazasPage" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
   </Roots.RootTypes>
 </Roots>

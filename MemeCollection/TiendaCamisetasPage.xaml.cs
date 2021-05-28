@@ -23,6 +23,7 @@ namespace MemeCollection
     /// </summary>
     public sealed partial class TiendaCamisetasPage : Page
     {
+       
         tiendaUserControl aux1 = new tiendaUserControl();
         tiendaUserControl aux2 = new tiendaUserControl();
         tiendaUserControl aux3 = new tiendaUserControl();
@@ -33,6 +34,8 @@ namespace MemeCollection
         public TiendaCamisetasPage()
         {
             this.InitializeComponent();
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
+            
 
             cbTienda.Items.Add("Ordenar de mayor a menor precio");
             cbTienda.Items.Add("Ordenar de menor a mayor precio");
@@ -261,5 +264,6 @@ namespace MemeCollection
             this.producto6.precio = aux6.precio;
             this.producto6.like = aux6.like;
         }
+
     }
 }

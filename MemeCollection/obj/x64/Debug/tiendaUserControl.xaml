@@ -28,6 +28,7 @@
         <Image x:ConnectionId='6' x:Name="imgaddCarrito" HorizontalAlignment="Stretch" Height="30" VerticalAlignment="Stretch" Width="29" Source="/Images/imgaddCarrito.png" Grid.Column="3"                                Margin="5,5,5,5"/>
         <TextBlock x:ConnectionId='7' x:Name="txtPrecio" Grid.Column="1" HorizontalAlignment="Stretch" Height="15" Grid.Row="2" Text="14.99€" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Margin="0,0,0,0" TextAlignment="Center"/>
         <Image x:ConnectionId='8' x:Name="imgLikeOffTiendaButton" HorizontalAlignment="Left" Height="20" Grid.Row="2" VerticalAlignment="Center" Width="20" Source="/Images/imgLikes.png" Margin="10,0,0,0"                             Visibility="Visible"/>
+        <ComboBox x:ConnectionId='9' x:Name="cbTallas"  Grid.Column="2" Grid.Row="2" VerticalAlignment="Stretch" Margin="1,1,1,1" FontSize="9" Grid.ColumnSpan="2" FontWeight="Bold" FontFamily="Arial" Background="{x:Null}" BorderBrush="#66080000"/>
 
 
 
