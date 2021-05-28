@@ -61,6 +61,7 @@ namespace MemeCollection
             cbTallas.Items.Add("Talla M");
             cbTallas.Items.Add("Talla L");
             cbTallas.Items.Add("Talla XL");
+            cbTallas.SelectedIndex = 0;
 
         }
 

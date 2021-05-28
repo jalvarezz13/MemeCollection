@@ -30,13 +30,13 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto" MinHeight="810"/>
+                        <RowDefinition Height="*" MinHeight="810"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition/>
 
                     </Grid.RowDefinitions>
-                    <SymbolIcon x:ConnectionId='3' x:Name="iconRecientes" Grid.Row="0" Margin="4,4,4,4" Symbol="Favorite"                              ></SymbolIcon>
+                    <SymbolIcon x:ConnectionId='3' x:Name="iconRecientes" Grid.Row="0" Margin="4,4,4,4" Symbol="Clock"                              ></SymbolIcon>
                     <SymbolIcon x:ConnectionId='4' x:Name="iconCategorias" Grid.Row="1" Margin="4,4,4,4" Symbol="AllApps"                               ></SymbolIcon>
                     <SymbolIcon x:ConnectionId='5' x:Name="iconTienda" Grid.Row="2" Margin="4,4,4,4" Symbol="Shop"                           ></SymbolIcon>
                     <SymbolIcon x:ConnectionId='6' x:Name="iconAcercaDe" Grid.Row="4" Margin="4,4,4,4" Symbol="Help"                             ></SymbolIcon>

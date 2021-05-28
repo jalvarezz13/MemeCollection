@@ -36,7 +36,7 @@ namespace MemeCollection
             cbTienda.Items.Add("Ordenar de mayor a menor precio");
             cbTienda.Items.Add("Ordenar de menor a mayor precio");
             cbTienda.Items.Add("Ordenar de mas gustados a menos gustados");
-            cbTienda.Items.Add("Ordenar de menos gustados a mas gustados");
+            cbTienda.Items.Add("Ordenar de menos gustados a mas gustados");            
             cargarProductos();
 
         }

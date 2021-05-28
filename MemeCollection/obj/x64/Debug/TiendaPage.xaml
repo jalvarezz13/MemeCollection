@@ -27,18 +27,25 @@
 
                     </Grid.RowDefinitions>
 
-                    <TextBlock x:ConnectionId='4' x:Name="txtCamisetas" Grid.Row="0" Grid.Column="1" Margin="4,4,4,4" Text="Camisetas"                                    />
-                    <TextBlock x:ConnectionId='5' x:Name="txtSudaderas" Grid.Row="1" Grid.Column="1" Margin="4,4,4,4" Text="Sudaderas"                                    />
-                    <TextBlock x:ConnectionId='6' x:Name="txtGorras" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Gorras"                                 />
-                    <TextBlock x:ConnectionId='7' x:Name="txtTazas" Grid.Row="3" Grid.Column="1" Margin="4,4,4,4" Text="Tazas"                                />
-                    <TextBlock x:ConnectionId='8' x:Name="txtCalcetines" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Calcetines"                                     />
-                    <TextBlock x:ConnectionId='9' x:Name="txtFavoritos" Grid.Row="5" Grid.Column="1" Margin="4,4,4,4" Text="Favoritos"                                    />
+                    <Image x:ConnectionId='4' x:Name="iconCamisetas" Grid.Row="0" Margin="4,4,4,4" Source="/Images/imgCamiseta.png"                                    />
+                    <Image x:ConnectionId='5' x:Name="iconSudaderas" Grid.Row="1" Margin="4,4,4,4" Source="/Images/imgSudadera.png"                                    />
+                    <Image x:ConnectionId='6' x:Name="iconCalcetines" Grid.Row="2" Margin="4,4,4,4" Source="/Images/imgCalcetines.png"                                     />
+                    <Image x:ConnectionId='7' x:Name="iconGorras" Grid.Row="3" Margin="4,4,4,4" Source="/Images/imgGorra.png"                                 />
+                    <Image x:ConnectionId='8' x:Name="iconTazas" Grid.Row="4" Margin="4,4,4,4" Source="/Images/imgTaza.png"                                />
+                    <SymbolIcon x:ConnectionId='9' x:Name="iconFavoritos" Grid.Row="5" Margin="4,4,4,4" Symbol="Favorite"                                    > </SymbolIcon>
+
+                    <TextBlock x:ConnectionId='10' x:Name="txtCamisetas" Grid.Row="0" Grid.Column="1" Margin="4,4,4,4" Text="Camisetas"                                    />
+                    <TextBlock x:ConnectionId='11' x:Name="txtSudaderas" Grid.Row="1" Grid.Column="1" Margin="4,4,4,4" Text="Sudaderas"                                    />
+                    <TextBlock x:ConnectionId='12' x:Name="txtCalcetines" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Calcetines"                                     />
+                    <TextBlock x:ConnectionId='13' x:Name="txtGorras" Grid.Row="3" Grid.Column="1" Margin="4,4,4,4" Text="Gorras"                                 />
+                    <TextBlock x:ConnectionId='14' x:Name="txtTazas" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Tazas"                                />
+                    <TextBlock x:ConnectionId='15' x:Name="txtFavoritos" Grid.Row="5" Grid.Column="1" Margin="4,4,4,4" Text="Favoritos"                                    />
 
 
 
                 </Grid>
             </SplitView.Pane>
-            <Frame x:ConnectionId='10' x:Name="frmTienda" Grid.Column="1" Grid.Row="1" FontSize="30" FontWeight="Bold"/>
+            <Frame x:ConnectionId='16' x:Name="frmTienda" Grid.Column="1" Grid.Row="1" FontSize="30" FontWeight="Bold"/>
         </SplitView>
     </Grid>
 </Page>

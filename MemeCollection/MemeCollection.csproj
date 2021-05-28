@@ -233,7 +233,12 @@
     <Content Include="Assets\Wide310x150Logo.scale-125.png" />
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Images\imgCalcetines.png" />
+    <Content Include="Images\imgCamiseta.png" />
+    <Content Include="Images\imgGorra.png" />
     <Content Include="Images\imgLikesDado.png" />
+    <Content Include="Images\imgSudadera.png" />
+    <Content Include="Images\imgTaza.png" />
     <Content Include="Images\Productos\Calcetines\Calcetines1.jpg" />
     <Content Include="Images\Productos\Calcetines\Calcetines2.jpg" />
     <Content Include="Images\Productos\Calcetines\Calcetines3.jpg" />

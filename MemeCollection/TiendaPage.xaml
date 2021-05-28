@@ -27,11 +27,18 @@
 
                     </Grid.RowDefinitions>
 
+                    <Image x:Name="iconCamisetas" Grid.Row="0" Margin="4,4,4,4" Source="/Images/imgCamiseta.png" PointerReleased="irTiendaCamisetas"/>
+                    <Image x:Name="iconSudaderas" Grid.Row="1" Margin="4,4,4,4" Source="/Images/imgSudadera.png" PointerReleased="irTiendaSudaderas"/>
+                    <Image x:Name="iconCalcetines" Grid.Row="2" Margin="4,4,4,4" Source="/Images/imgCalcetines.png" PointerReleased="irTiendaCalcetines"/>
+                    <Image x:Name="iconGorras" Grid.Row="3" Margin="4,4,4,4" Source="/Images/imgGorra.png" PointerReleased="irTiendaGorras"/>
+                    <Image x:Name="iconTazas" Grid.Row="4" Margin="4,4,4,4" Source="/Images/imgTaza.png" PointerReleased="irTiendaTazas"/>
+                    <SymbolIcon x:Name="iconFavoritos" Grid.Row="5" Margin="4,4,4,4" Symbol="Favorite" PointerReleased="irTiendaFavoritos"> </SymbolIcon>
+
                     <TextBlock x:Name="txtCamisetas" Grid.Row="0" Grid.Column="1" Margin="4,4,4,4" Text="Camisetas" PointerReleased="irTiendaCamisetas"/>
                     <TextBlock x:Name="txtSudaderas" Grid.Row="1" Grid.Column="1" Margin="4,4,4,4" Text="Sudaderas" PointerReleased="irTiendaSudaderas"/>
-                    <TextBlock x:Name="txtGorras" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Gorras" PointerReleased="irTiendaGorras"/>
-                    <TextBlock x:Name="txtTazas" Grid.Row="3" Grid.Column="1" Margin="4,4,4,4" Text="Tazas" PointerReleased="irTiendaTazas"/>
-                    <TextBlock x:Name="txtCalcetines" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Calcetines" PointerReleased="irTiendaCalcetines"/>
+                    <TextBlock x:Name="txtCalcetines" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Calcetines" PointerReleased="irTiendaCalcetines"/>
+                    <TextBlock x:Name="txtGorras" Grid.Row="3" Grid.Column="1" Margin="4,4,4,4" Text="Gorras" PointerReleased="irTiendaGorras"/>
+                    <TextBlock x:Name="txtTazas" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Tazas" PointerReleased="irTiendaTazas"/>
                     <TextBlock x:Name="txtFavoritos" Grid.Row="5" Grid.Column="1" Margin="4,4,4,4" Text="Favoritos" PointerReleased="irTiendaFavoritos"/>
 
 
