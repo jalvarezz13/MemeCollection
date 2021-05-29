@@ -135,5 +135,6 @@ namespace MemeCollection
                 svMenuCategorias.DisplayMode = SplitViewDisplayMode.Overlay;
             }
         }
+       
     }
 }

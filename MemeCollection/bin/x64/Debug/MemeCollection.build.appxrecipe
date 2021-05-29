@@ -408,9 +408,6 @@
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza6.jpg">
       <PackagePath>Images\Productos\Tazas\Taza6.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\meme1.jpg">
-      <PackagePath>Images\meme1.jpg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme1.jpg">
       <PackagePath>Images\Memes\Comida\meme1.jpg</PackagePath>
     </AppxPackagedFile>

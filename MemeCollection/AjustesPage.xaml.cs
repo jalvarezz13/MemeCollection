@@ -22,10 +22,29 @@ namespace MemeCollection
     /// </summary>
     public sealed partial class AjustesPage : Page
     {
+        GridLength visible = GridLength.Auto;
+        GridLength novisible = new GridLength(0);
         public AjustesPage()
         {
             this.InitializeComponent();
             this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
+            
+        }
+
+        private void showHideComida(object sender, PointerRoutedEventArgs e)
+        {
+            switch (tsComida.IsOn)
+            {
+                case true:
+                    
+                    
+                    break;
+                case false:
+                    Application.Current.Resources["gridHeight"] = "0";
+
+                    break;
+
+            }
         }
     }
 }
