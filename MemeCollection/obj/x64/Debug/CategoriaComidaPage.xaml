@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="MemeCollection.CategoriaComidaPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MemeCollection"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="37*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Comida" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Stretch"/>
+        <GridView x:ConnectionId='2' x:Name="sepa" Margin="20,10,0,10" Grid.Row="1">
+            <local:memeUserControl x:ConnectionId='3' x:Name="meme1" Margin="0,5,5,0"/>
+            <local:memeUserControl x:ConnectionId='4' x:Name="meme2" Margin="0,5,5,0"/>
+            <local:memeUserControl x:ConnectionId='5' x:Name="meme3" Margin="0,5,5,0"/>
+            <local:memeUserControl x:ConnectionId='6' x:Name="meme4" Margin="0,5,5,0"/>
+            <local:memeUserControl x:ConnectionId='7' x:Name="meme5" Margin="0,5,5,0"/>
+            <local:memeUserControl x:ConnectionId='8' x:Name="meme6" Margin="0,5,5,0"/>
+            <local:memeUserControl x:ConnectionId='9' x:Name="meme7" Margin="0,5,5,0"/>
+            <local:memeUserControl x:ConnectionId='10' x:Name="meme8" Margin="0,5,5,0"/>
+        </GridView>
+    </Grid>
+
+</Page>
+

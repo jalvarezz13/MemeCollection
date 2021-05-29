@@ -17,28 +17,28 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition x:Name="FilaComida"  Height="Auto"></RowDefinition>
+                        <RowDefinition x:Name="FilaDeportes"  Height="Auto"></RowDefinition>
+                        <RowDefinition x:Name="FilaFamosos"  Height="Auto"></RowDefinition>
+                        <RowDefinition x:Name="FilaInformatica"  Height="Auto"></RowDefinition>
+                        <RowDefinition x:Name="FilaPeliculas"  Height="Auto"></RowDefinition>
+                        <RowDefinition x:Name="FilaVIdeojuegos"  Height="Auto"></RowDefinition>
+                        <RowDefinition x:Name="FilaResto"  Height="Auto"></RowDefinition>
 
                     </Grid.RowDefinitions>
 
-                    <SymbolIcon x:Name="iconComida" Grid.Row="0" Margin="4,4,4,4" Symbol="Account" PointerReleased="irCategoriaComida"/>
-                    <SymbolIcon x:Name="iconDeportes" Grid.Row="1" Margin="4,4,4,4" Symbol="Emoji2" PointerReleased="irCategoriaDeportes"/>
-                    <SymbolIcon x:Name="iconFamosos" Grid.Row="2" Margin="4,4,4,4" Symbol="Audio" PointerReleased="irCategoriaFamosos"/>
-                    <SymbolIcon x:Name="iconInformatica" Grid.Row="3" Margin="4,4,4,4" Symbol="Calendar" PointerReleased="irCategoriaInformatica"/>
-                    <SymbolIcon x:Name="iconPeliculas" Grid.Row="4" Margin="4,4,4,4" Symbol="Camera" PointerReleased="irCategoriaPeliculas"/>
-                    <SymbolIcon x:Name="iconVideojuegos" Grid.Row="5" Margin="4,4,4,4" Symbol="ClosePane" PointerReleased="irCategoriaVidejuegos"/>
+                    <Image x:Name="iconComida" Grid.Row="0" Margin="4,4,4,4" Source="/Images/imgComida.png" PointerReleased="irCategoriaComida"/>
+                    <Image x:Name="iconDeportes" Grid.Row="1" Margin="4,4,4,4" Source="/Images/imgDeporte.png" PointerReleased="irCategoriaDeportes"/>
+                    <Image x:Name="iconFamosos" Grid.Row="2" Margin="4,4,4,4" Source="/Images/imgFamosos.png" PointerReleased="irCategoriaFamosos"/>
+                    <Image x:Name="iconInformatica" Grid.Row="3" Margin="4,4,4,4" Source="/Images/imgInformatica.png" PointerReleased="irCategoriaInformatica"/>
+                    <Image x:Name="iconPeliculas" Grid.Row="4" Margin="4,4,4,4" Source="/Images/imgPeliculas.png" PointerReleased="irCategoriaPeliculas"/>
+                    <Image x:Name="iconVideojuegos" Grid.Row="5" Margin="4,4,4,4" Source="/Images/imgVideojuegos.png" PointerReleased="irCategoriaVidejuegos"/>
 
                     <TextBlock x:Name="txtComida" Grid.Row="0" Grid.Column="1" Margin="4,4,4,4" Text="Comida" PointerReleased="irCategoriaComida"/>
                     <TextBlock x:Name="txtDeportes" Grid.Row="1" Grid.Column="1" Margin="4,4,4,4" Text="Deportes" PointerReleased="irCategoriaDeportes"/>
                     <TextBlock x:Name="txtFamosos" Grid.Row="2" Grid.Column="1" Margin="4,4,4,4" Text="Famosos" PointerReleased="irCategoriaFamosos"/>
                     <TextBlock x:Name="txtInformatica" Grid.Row="3" Grid.Column="1" Margin="4,4,4,4" Text="Informatica" PointerReleased="irCategoriaInformatica"/>
-                    <TextBlock x:Name="txtPeliculas" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Peliculas" PointerReleased="irCategoriaPeliculas"/>
+                    <TextBlock x:Name="txtPeliculas" Grid.Row="4" Grid.Column="1" Margin="4,4,4,4" Text="Peliculas" PointerReleased="irCategoriaPeliculas" Visibility="Visible"/>
                     <TextBlock x:Name="txtVideojuegos" Grid.Row="5" Grid.Column="1" Margin="4,4,4,4" Text="Videojuegos" PointerReleased="irCategoriaVidejuegos"/>
 
 

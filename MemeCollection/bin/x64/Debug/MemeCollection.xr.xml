@@ -92,6 +92,8 @@
       <RootProperty Name="Width" />
       <RootEvent Name="PointerEntered" />
       <RootEvent Name="PointerExited" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -107,6 +109,7 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
@@ -116,10 +119,10 @@
       <RootEvent Name="PointerReleased" />
     </RootType>
     <RootType FullName="MemeCollection.AcercaDePage" />
-    <RootType FullName="MemeCollection.AjustesPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
+    <RootType FullName="MemeCollection.AjustesPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="Margin" />
       <RootProperty Name="Items" />
@@ -143,10 +146,19 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Margin" />
-      <RootProperty Name="Symbol" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="FocusVisualSecondaryBrush" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="AllowDrop" />
       <RootEvent Name="PointerReleased" />
+      <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="FontSize" />
@@ -168,26 +180,17 @@
       <RootProperty Name="Content" />
       <RootEvent Name="Click" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Symbol" />
+      <RootEvent Name="PointerReleased" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
       <RootProperty Name="Glyph" />
     </RootType>
     <RootType FullName="MemeCollection.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Image">
-      <RootProperty Name="Source" />
-      <RootProperty Name="Stretch" />
-      <RootProperty Name="FocusVisualSecondaryBrush" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Visibility" />
-      <RootProperty Name="AllowDrop" />
-      <RootEvent Name="PointerReleased" />
-      <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="MemeCollection.RecientesPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">

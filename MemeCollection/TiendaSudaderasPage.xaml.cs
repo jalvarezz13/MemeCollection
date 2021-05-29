@@ -33,10 +33,12 @@ namespace MemeCollection
         {
             this.InitializeComponent();
             this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
+            cbTienda.Items.Add("Seleccione ...");
             cbTienda.Items.Add("Ordenar de mayor a menor precio");
             cbTienda.Items.Add("Ordenar de menor a mayor precio");
             cbTienda.Items.Add("Ordenar de mas gustados a menos gustados");
-            cbTienda.Items.Add("Ordenar de menos gustados a mas gustados");            
+            cbTienda.Items.Add("Ordenar de menos gustados a mas gustados");
+            cbTienda.SelectedIndex = 0;
             cargarProductos();
 
         }
@@ -85,7 +87,7 @@ namespace MemeCollection
 
                 switch (cbTienda.SelectedIndex)
                 {
-                    case 0:
+                    case 1:
                         aux1.titulo = ordenPrecio.ElementAt(5).titulo;
                         aux1.ruta_string = ordenPrecio.ElementAt(5).ruta_string;
                         aux1.precio = Convert.ToString(ordenPrecio.ElementAt(5).precio);
@@ -119,7 +121,7 @@ namespace MemeCollection
                         actualizarOrden();
                         break;
 
-                    case 1:
+                    case 2:
                         aux1.titulo = ordenPrecio.ElementAt(0).titulo;
                         aux1.ruta_string = ordenPrecio.ElementAt(0).ruta_string;
                         aux1.precio = Convert.ToString(ordenPrecio.ElementAt(0).precio);
@@ -153,7 +155,7 @@ namespace MemeCollection
                         actualizarOrden();
                         break;
 
-                    case 2:
+                    case 3:
                         aux1.titulo = ordenLike.ElementAt(5).titulo;
                         aux1.ruta_string = ordenLike.ElementAt(5).ruta_string;
                         aux1.precio = Convert.ToString(ordenLike.ElementAt(5).precio);
@@ -187,7 +189,7 @@ namespace MemeCollection
                         actualizarOrden();
                         break;
 
-                    case 3:
+                    case 4:
                         aux1.titulo = ordenLike.ElementAt(0).titulo;
                         aux1.ruta_string = ordenLike.ElementAt(0).ruta_string;
                         aux1.precio = Convert.ToString(ordenLike.ElementAt(0).precio);
