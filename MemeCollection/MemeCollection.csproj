@@ -235,6 +235,7 @@
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Images\imgCalcetines.png" />
     <Content Include="Images\imgCamiseta.png" />
+    <Content Include="Images\imgCarrito.png" />
     <Content Include="Images\imgGorra.png" />
     <Content Include="Images\imgLikesDado.png" />
     <Content Include="Images\imgSudadera.png" />
