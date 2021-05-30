@@ -81,7 +81,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
-      <RootProperty Name="Resources" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MinHeight" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
@@ -148,7 +149,6 @@
     <RootType FullName="MemeCollection.CategoriaFamososPage" />
     <RootType FullName="MemeCollection.CategoriaInformaticaPage" />
     <RootType FullName="MemeCollection.CategoriaPeliculasPage" />
-    <RootType FullName="Windows.UI.Xaml.GridLength" />
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="CompactPaneLength" />
       <RootProperty Name="IsPaneOpen" />
@@ -160,16 +160,20 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Margin" />
       <RootProperty Name="Source" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="Stretch" />
       <RootProperty Name="FocusVisualSecondaryBrush" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Visibility" />
       <RootProperty Name="AllowDrop" />
       <RootEvent Name="PointerReleased" />
       <RootEvent Name="PointerPressed" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootMethod Name="GetVerticalScrollBarVisibility" />
+      <RootMethod Name="SetVerticalScrollBarVisibility" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="FontSize" />

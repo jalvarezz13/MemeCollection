@@ -7,9 +7,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <Page.Resources>
-        <GridLength x:Key="gridHeight">Auto</GridLength>
-    </Page.Resources>
     <Grid x:ConnectionId='2' x:Name="gridCategoria" >
         <SplitView x:ConnectionId='3' x:Name="svMenuCategorias" CompactPaneLength="30" IsPaneOpen="True"  DisplayMode="CompactInline">
             <SplitView.Pane>
@@ -20,7 +17,7 @@
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
 
-                        <RowDefinition x:ConnectionId='5' x:Name="FilaComida"  Height="{StaticResource gridHeight}"></RowDefinition>
+                        <RowDefinition x:ConnectionId='5' x:Name="FilaComida"  Height="Auto"></RowDefinition>
                         <RowDefinition x:ConnectionId='6' x:Name="FilaDeportes"  Height="Auto"></RowDefinition>
                         <RowDefinition x:ConnectionId='7' x:Name="FilaFamosos"  Height="Auto"></RowDefinition>
                         <RowDefinition x:ConnectionId='8' x:Name="FilaInformatica"  Height="Auto"></RowDefinition>
@@ -34,7 +31,7 @@
                     <Image x:ConnectionId='13' x:Name="iconDeportes" Grid.Row="1" Margin="4,4,4,4" Source="/Images/imgDeporte.png"                                      />
                     <Image x:ConnectionId='14' x:Name="iconFamosos" Grid.Row="2" Margin="4,4,4,4" Source="/Images/imgFamosos.png"                                     />
                     <Image x:ConnectionId='15' x:Name="iconInformatica" Grid.Row="3" Margin="4,4,4,4" Source="/Images/imgInformatica.png"                                         />
-                    <Image x:ConnectionId='16' x:Name="iconPeliculas" Grid.Row="4" Margin="4,4,4,4" Source="/Images/imgPeliculas.png"                                       />
+                    <Image x:ConnectionId='16' x:Name="iconPeliculas" Grid.Row="4" Margin="4,4,4,4" Source="/Images/imgPeliculas.png"                                        ScrollViewer.VerticalScrollBarVisibility="Visible" Visibility="Visible"/>
                     <Image x:ConnectionId='17' x:Name="iconVideojuegos" Grid.Row="5" Margin="4,4,4,4" Source="/Images/imgVideojuegos.png"                                        />
 
                     <TextBlock x:ConnectionId='18' x:Name="txtComida" Grid.Row="0" Grid.Column="1" Margin="4,4,4,4" Text="Comida"                                    />

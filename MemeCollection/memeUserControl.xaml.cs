@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -43,6 +44,7 @@ namespace MemeCollection
         public BitmapImage ruta
         {
             set { imgMemePrincipal.Source = value; }
+            
         }
 
         public string ruta_string
@@ -56,6 +58,7 @@ namespace MemeCollection
             this.InitializeComponent();
             txtVistas.Text = String.Format("{0}", new Random().Next(1000, 10000));
             txtLikes.Text = String.Format("{0}", new Random().Next(0, 1000));
+            
         }
 
         private void pulsarLike(object sender, PointerRoutedEventArgs e)
@@ -78,9 +81,11 @@ namespace MemeCollection
 
         private void guardarMeme(object sender, PointerRoutedEventArgs e)
         {
-            new ToastContentBuilder().AddArgument("action", "Guardar").AddArgument("conversationId", 9813).AddText("Meme guardado").Show();
-           // new ToastContentBuilder().AddText("Would you like to order lunch today?").AddButton(new ToastButton("Yes", "action=orderLunch"){ActivationType = ToastActivationType.Background,ActivationOptions = new ToastActivationOptions(){AfterActivationBehavior = ToastAfterActivationBehavior.PendingUpdate}});
+            
+            new ToastContentBuilder().AddArgument("action", "Guardar").AddInlineImage(new Uri(ruta_string)).AddArgument("conversationId", 9813).AddText("Meme guardado").Show();
+           
         }
+       
     }
 }
 

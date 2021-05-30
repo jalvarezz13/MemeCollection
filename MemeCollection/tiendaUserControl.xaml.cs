@@ -82,10 +82,7 @@ namespace MemeCollection
             }
         }
 
-        private void anadirCarrito(object sender, PointerRoutedEventArgs e)
-        {
-           
-        }
+       
       
     }
 }
