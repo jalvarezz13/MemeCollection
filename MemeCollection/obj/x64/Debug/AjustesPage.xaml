@@ -51,7 +51,7 @@
         <TextBlock Text="Apartado de Tazas" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="7" Grid.Column="2" HorizontalAlignment="Left"/>
         <TextBlock Text="Apartado de Favoritos" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="8"  Grid.Column="2" HorizontalAlignment="Left"/>
 
-        <ToggleSwitch x:ConnectionId='2' x:Name="tsComida" Header="" Margin="0,0,0,0" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center"                                 >
+        <ToggleSwitch x:ConnectionId='2' x:Name="tsComida" Header="" Margin="0,0,0,0" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center"                               >
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>

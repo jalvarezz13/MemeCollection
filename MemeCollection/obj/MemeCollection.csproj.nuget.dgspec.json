@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\javie\\Source\\Repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj": {}
+    "C:\\Users\\javie\\source\\repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\javie\\Source\\Repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj": {
+    "C:\\Users\\javie\\source\\repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\javie\\Source\\Repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj",
+        "projectUniqueName": "C:\\Users\\javie\\source\\repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj",
         "projectName": "MemeCollection",
-        "projectPath": "C:\\Users\\javie\\Source\\Repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj",
+        "projectPath": "C:\\Users\\javie\\source\\repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\MemeCollection.csproj",
         "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\javie\\Source\\Repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\obj\\",
+        "outputPath": "C:\\Users\\javie\\source\\repos\\jalvarezz13\\MeMeCollection\\MemeCollection\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

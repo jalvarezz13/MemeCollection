@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>294449c9-3437-4c05-8057-de5c53e9733c</PackageIdentityName>
     <PackageIdentityPublisher>CN=Javier Álvarez</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>74B1CB19027D2BFC20B5DF2DF4262393FBBB87B110DD08BFB7FBE491AC292B3E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>294449c9-3437-4c05-8057-de5c53e9733c_1.0.0.0_x64__gy65df12986jy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>294449c9-3437-4c05-8057-de5c53e9733c_gy65df12986jy!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-30T14:38:53.080</Modified>
+      <Modified>2021-05-30T17:39:32.209</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\MemeCollection.exe">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\MemeCollection.exe">
       <PackagePath>entrypoint\MemeCollection.exe</PackagePath>
-      <Modified>2021-05-30T14:38:51.633</Modified>
+      <Modified>2021-05-30T17:39:30.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\.nuget\packages\microsoft.toolkit.uwp.notifications\7.0.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.Notifications.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
@@ -50,791 +50,791 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\iconoApp.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\iconoApp.png">
       <PackagePath>Assets\iconoApp.png</PackagePath>
       <Modified>2021-05-30T14:10:06.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.935</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.944</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.946</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.950</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.953</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.955</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.956</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.961</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.977</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgCalcetines.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgCalcetines.png">
       <PackagePath>Images\imgCalcetines.png</PackagePath>
       <Modified>2021-05-30T14:10:07.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgCamiseta.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgCamiseta.png">
       <PackagePath>Images\imgCamiseta.png</PackagePath>
       <Modified>2021-05-30T14:10:07.184</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgCarrito.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgCarrito.png">
       <PackagePath>Images\imgCarrito.png</PackagePath>
       <Modified>2021-05-30T14:10:07.184</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgComida.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgComida.png">
       <PackagePath>Images\imgComida.png</PackagePath>
       <Modified>2021-05-30T14:10:07.185</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgDeporte.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgDeporte.png">
       <PackagePath>Images\imgDeporte.png</PackagePath>
       <Modified>2021-05-30T14:10:07.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgFamosos.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgFamosos.png">
       <PackagePath>Images\imgFamosos.png</PackagePath>
       <Modified>2021-05-30T14:10:07.187</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgGorra.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgGorra.png">
       <PackagePath>Images\imgGorra.png</PackagePath>
       <Modified>2021-05-30T14:10:07.187</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgInformatica.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgInformatica.png">
       <PackagePath>Images\imgInformatica.png</PackagePath>
       <Modified>2021-05-30T14:10:07.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgLikesDado.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgLikesDado.png">
       <PackagePath>Images\imgLikesDado.png</PackagePath>
       <Modified>2021-05-30T14:10:07.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgPeliculas.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgPeliculas.png">
       <PackagePath>Images\imgPeliculas.png</PackagePath>
       <Modified>2021-05-30T14:10:07.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgRecientes.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgRecientes.png">
       <PackagePath>Images\imgRecientes.png</PackagePath>
       <Modified>2021-05-30T14:10:07.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgSudadera.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgSudadera.png">
       <PackagePath>Images\imgSudadera.png</PackagePath>
       <Modified>2021-05-30T14:10:07.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgTaza.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgTaza.png">
       <PackagePath>Images\imgTaza.png</PackagePath>
       <Modified>2021-05-30T14:10:07.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgVideojuegos.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgVideojuegos.png">
       <PackagePath>Images\imgVideojuegos.png</PackagePath>
       <Modified>2021-05-30T14:10:07.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgaddCarrito.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgaddCarrito.png">
       <PackagePath>Images\imgaddCarrito.png</PackagePath>
       <Modified>2021-05-30T14:10:07.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgGuardar.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgGuardar.png">
       <PackagePath>Images\imgGuardar.png</PackagePath>
       <Modified>2021-05-30T14:10:07.188</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgLikes.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgLikes.png">
       <PackagePath>Images\imgLikes.png</PackagePath>
       <Modified>2021-05-30T14:10:07.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgVisitas.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\imgVisitas.png">
       <PackagePath>Images\imgVisitas.png</PackagePath>
       <Modified>2021-05-30T14:10:07.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2021-05-30T14:10:06.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.966</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-30T14:10:06.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines1.jpg">
       <PackagePath>Images\Productos\Calcetines\Calcetines1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines2.jpg">
       <PackagePath>Images\Productos\Calcetines\Calcetines2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines3.jpg">
       <PackagePath>Images\Productos\Calcetines\Calcetines3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines4.jpg">
       <PackagePath>Images\Productos\Calcetines\Calcetines4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines5.jpg">
       <PackagePath>Images\Productos\Calcetines\Calcetines5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Calcetines\Calcetines6.jpg">
       <PackagePath>Images\Productos\Calcetines\Calcetines6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta1.jpg">
       <PackagePath>Images\Productos\Camisetas\Camiseta1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta2.jpg">
       <PackagePath>Images\Productos\Camisetas\Camiseta2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta3.jpg">
       <PackagePath>Images\Productos\Camisetas\Camiseta3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.145</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta4.jpg">
       <PackagePath>Images\Productos\Camisetas\Camiseta4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.147</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta5.jpg">
       <PackagePath>Images\Productos\Camisetas\Camiseta5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Camisetas\Camiseta6.jpg">
       <PackagePath>Images\Productos\Camisetas\Camiseta6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.154</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos1.jpg">
       <PackagePath>Images\Productos\Favoritos\Favoritos1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.154</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos2.jpg">
       <PackagePath>Images\Productos\Favoritos\Favoritos2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos3.jpg">
       <PackagePath>Images\Productos\Favoritos\Favoritos3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.157</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos4.jpg">
       <PackagePath>Images\Productos\Favoritos\Favoritos4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos5.jpg">
       <PackagePath>Images\Productos\Favoritos\Favoritos5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos6.jpg">
       <PackagePath>Images\Productos\Favoritos\Favoritos6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos7.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Favoritos\Favoritos7.jpg">
       <PackagePath>Images\Productos\Favoritos\Favoritos7.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra1.jpg">
       <PackagePath>Images\Productos\Gorras\Gorra1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.165</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra2.jpg">
       <PackagePath>Images\Productos\Gorras\Gorra2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra3.jpg">
       <PackagePath>Images\Productos\Gorras\Gorra3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.169</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra4.jpg">
       <PackagePath>Images\Productos\Gorras\Gorra4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.169</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra5.jpg">
       <PackagePath>Images\Productos\Gorras\Gorra5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Gorras\Gorra6.jpg">
       <PackagePath>Images\Productos\Gorras\Gorra6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera1.jpg">
       <PackagePath>Images\Productos\Sudaderas\Sudadera1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera2.jpg">
       <PackagePath>Images\Productos\Sudaderas\Sudadera2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.175</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera3.jpg">
       <PackagePath>Images\Productos\Sudaderas\Sudadera3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera4.jpg">
       <PackagePath>Images\Productos\Sudaderas\Sudadera4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.177</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera5.jpg">
       <PackagePath>Images\Productos\Sudaderas\Sudadera5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.178</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Sudaderas\Sudadera6.jpg">
       <PackagePath>Images\Productos\Sudaderas\Sudadera6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.178</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza1.jpg">
       <PackagePath>Images\Productos\Tazas\Taza1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza2.jpg">
       <PackagePath>Images\Productos\Tazas\Taza2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza3.jpg">
       <PackagePath>Images\Productos\Tazas\Taza3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza4.jpg">
       <PackagePath>Images\Productos\Tazas\Taza4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza5.jpg">
       <PackagePath>Images\Productos\Tazas\Taza5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Productos\Tazas\Taza6.jpg">
       <PackagePath>Images\Productos\Tazas\Taza6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme1.jpg">
       <PackagePath>Images\Memes\Comida\meme1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:06.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme2.jpg">
       <PackagePath>Images\Memes\Comida\meme2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:06.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme3.jpg">
       <PackagePath>Images\Memes\Comida\meme3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme4.jpg">
       <PackagePath>Images\Memes\Comida\meme4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.002</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme5.jpg">
       <PackagePath>Images\Memes\Comida\meme5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.004</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme6.jpg">
       <PackagePath>Images\Memes\Comida\meme6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme7.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme7.jpg">
       <PackagePath>Images\Memes\Comida\meme7.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme8.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Comida\meme8.jpg">
       <PackagePath>Images\Memes\Comida\meme8.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme1.jpg">
       <PackagePath>Images\Memes\Deportes\meme1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme2.jpg">
       <PackagePath>Images\Memes\Deportes\meme2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme3.jpg">
       <PackagePath>Images\Memes\Deportes\meme3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.025</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme4.jpg">
       <PackagePath>Images\Memes\Deportes\meme4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.030</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme5.jpg">
       <PackagePath>Images\Memes\Deportes\meme5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme6.jpg">
       <PackagePath>Images\Memes\Deportes\meme6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.036</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme7.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Deportes\meme7.jpg">
       <PackagePath>Images\Memes\Deportes\meme7.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme1.jpg">
       <PackagePath>Images\Memes\Famosos\meme1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme2.jpg">
       <PackagePath>Images\Memes\Famosos\meme2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme3.jpg">
       <PackagePath>Images\Memes\Famosos\meme3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme4.jpg">
       <PackagePath>Images\Memes\Famosos\meme4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme5.jpg">
       <PackagePath>Images\Memes\Famosos\meme5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Famosos\meme6.jpg">
       <PackagePath>Images\Memes\Famosos\meme6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.054</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme1.jpg">
       <PackagePath>Images\Memes\Informatica\meme1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme2.jpg">
       <PackagePath>Images\Memes\Informatica\meme2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.059</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme3.jpg">
       <PackagePath>Images\Memes\Informatica\meme3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.063</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme4.jpg">
       <PackagePath>Images\Memes\Informatica\meme4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme5.jpg">
       <PackagePath>Images\Memes\Informatica\meme5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.070</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Informatica\meme6.jpg">
       <PackagePath>Images\Memes\Informatica\meme6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.072</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme1.jpg">
       <PackagePath>Images\Memes\Peliculas\meme1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.075</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme2.jpg">
       <PackagePath>Images\Memes\Peliculas\meme2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme3.jpg">
       <PackagePath>Images\Memes\Peliculas\meme3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme4.jpg">
       <PackagePath>Images\Memes\Peliculas\meme4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.084</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme5.jpg">
       <PackagePath>Images\Memes\Peliculas\meme5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme6.jpg">
       <PackagePath>Images\Memes\Peliculas\meme6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.092</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme7.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme7.jpg">
       <PackagePath>Images\Memes\Peliculas\meme7.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.094</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme8.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Peliculas\meme8.jpg">
       <PackagePath>Images\Memes\Peliculas\meme8.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme1.jpg">
       <PackagePath>Images\Memes\Recientes\meme1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.100</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme10.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme10.jpg">
       <PackagePath>Images\Memes\Recientes\meme10.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.103</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme2.jpg">
       <PackagePath>Images\Memes\Recientes\meme2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.106</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme3.jpg">
       <PackagePath>Images\Memes\Recientes\meme3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.109</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme4.jpg">
       <PackagePath>Images\Memes\Recientes\meme4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.111</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme5.jpg">
       <PackagePath>Images\Memes\Recientes\meme5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme6.jpg">
       <PackagePath>Images\Memes\Recientes\meme6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme7.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme7.jpg">
       <PackagePath>Images\Memes\Recientes\meme7.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme8.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme8.jpg">
       <PackagePath>Images\Memes\Recientes\meme8.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme9.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Recientes\meme9.jpg">
       <PackagePath>Images\Memes\Recientes\meme9.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.121</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme1.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme1.jpg">
       <PackagePath>Images\Memes\Videojuegos\meme1.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.125</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme2.jpg">
       <PackagePath>Images\Memes\Videojuegos\meme2.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.129</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme3.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme3.jpg">
       <PackagePath>Images\Memes\Videojuegos\meme3.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.132</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme4.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme4.jpg">
       <PackagePath>Images\Memes\Videojuegos\meme4.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme5.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme5.jpg">
       <PackagePath>Images\Memes\Videojuegos\meme5.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme6.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Images\Memes\Videojuegos\meme6.jpg">
       <PackagePath>Images\Memes\Videojuegos\meme6.jpg</PackagePath>
       <Modified>2021-05-30T14:10:07.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2021-05-30T14:10:07.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\MemeCollection.xr.xml">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\MemeCollection.xr.xml">
       <PackagePath>MemeCollection.xr.xml</PackagePath>
       <Modified>2021-05-30T14:32:44.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.496</Modified>
+      <Modified>2021-05-30T17:38:00.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\AcercaDePage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\AcercaDePage.xbf">
       <PackagePath>AcercaDePage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.497</Modified>
+      <Modified>2021-05-30T17:38:00.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\AjustesPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\AjustesPage.xbf">
       <PackagePath>AjustesPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.448</Modified>
+      <Modified>2021-05-30T17:38:00.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaComidaPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaComidaPage.xbf">
       <PackagePath>CategoriaComidaPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.497</Modified>
+      <Modified>2021-05-30T17:38:00.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaDeportesPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaDeportesPage.xbf">
       <PackagePath>CategoriaDeportesPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.497</Modified>
+      <Modified>2021-05-30T17:38:00.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaFamososPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaFamososPage.xbf">
       <PackagePath>CategoriaFamososPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.498</Modified>
+      <Modified>2021-05-30T17:38:00.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaInformaticaPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaInformaticaPage.xbf">
       <PackagePath>CategoriaInformaticaPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.498</Modified>
+      <Modified>2021-05-30T17:38:00.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaPeliculasPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaPeliculasPage.xbf">
       <PackagePath>CategoriaPeliculasPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.498</Modified>
+      <Modified>2021-05-30T17:38:00.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriasPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriasPage.xbf">
       <PackagePath>CategoriasPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.499</Modified>
+      <Modified>2021-05-30T17:38:00.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaVideojuegosPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\CategoriaVideojuegosPage.xbf">
       <PackagePath>CategoriaVideojuegosPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.499</Modified>
+      <Modified>2021-05-30T17:38:00.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.499</Modified>
+      <Modified>2021-05-30T17:38:00.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\memeUserControl.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\memeUserControl.xbf">
       <PackagePath>memeUserControl.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.499</Modified>
+      <Modified>2021-05-30T17:38:00.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\RecientesPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\RecientesPage.xbf">
       <PackagePath>RecientesPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.500</Modified>
+      <Modified>2021-05-30T17:38:00.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaCalcetinesPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaCalcetinesPage.xbf">
       <PackagePath>TiendaCalcetinesPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.500</Modified>
+      <Modified>2021-05-30T17:38:00.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaCamisetasPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaCamisetasPage.xbf">
       <PackagePath>TiendaCamisetasPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.500</Modified>
+      <Modified>2021-05-30T17:38:00.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaFavoritosPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaFavoritosPage.xbf">
       <PackagePath>TiendaFavoritosPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.500</Modified>
+      <Modified>2021-05-30T17:38:00.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaGorrasPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaGorrasPage.xbf">
       <PackagePath>TiendaGorrasPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.501</Modified>
+      <Modified>2021-05-30T17:38:00.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaPage.xbf">
       <PackagePath>TiendaPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.501</Modified>
+      <Modified>2021-05-30T17:38:00.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaSudaderasPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaSudaderasPage.xbf">
       <PackagePath>TiendaSudaderasPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.501</Modified>
+      <Modified>2021-05-30T17:38:00.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaTazasPage.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\TiendaTazasPage.xbf">
       <PackagePath>TiendaTazasPage.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.502</Modified>
+      <Modified>2021-05-30T17:38:00.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\tiendaUserControl.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\tiendaUserControl.xbf">
       <PackagePath>tiendaUserControl.xbf</PackagePath>
-      <Modified>2021-05-30T14:37:20.502</Modified>
+      <Modified>2021-05-30T17:38:00.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2021-05-30T14:12:04.689</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\javie\Source\Repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\Core\MemeCollection.exe">
+    <AppxPackagedFile Include="C:\Users\javie\source\repos\jalvarezz13\MeMeCollection\MemeCollection\bin\x64\Debug\Core\MemeCollection.exe">
       <PackagePath>MemeCollection.exe</PackagePath>
-      <Modified>2021-05-30T14:38:53.072</Modified>
+      <Modified>2021-05-30T17:39:32.201</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -31,20 +32,13 @@ namespace MemeCollection
             
         }
 
-        private void showHideComida(object sender, PointerRoutedEventArgs e)
+        private void mostrarAviso(object sender, PointerRoutedEventArgs e)
         {
-            switch (tsComida.IsOn)
-            {
-                case true:
-                    
-                    
-                    break;
-                case false:
-                    Application.Current.Resources["gridHeight"] = "0";
-
-                    break;
-
-            }
+            MessageDialog dialog = new MessageDialog("\nEsta funcionalidad estaría genial pero... no la hemos podido conseguir :(\nLo hemos intentado de varias formas:\n- Binding estático en XAML\n- Binding dinámico en XAML\n- Instanciando la clase con un método publico\n- Haciendo accesible la variable con get y set\nEn general, la idea era ocultar tanto icono como texto del menu contextual de la izquierda y de esa forma que se ocultara gracias a que las RowDefinitions están en 'Auto'.", "Nota informativa");
+            dialog.Commands.Add(new UICommand("Ok, lo entiendo", null));
+            dialog.DefaultCommandIndex = 0;
+            dialog.CancelCommandIndex = 1;
+            var cmd = dialog.ShowAsync();
         }
     }
 }

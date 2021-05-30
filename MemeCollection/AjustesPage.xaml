@@ -51,7 +51,7 @@
         <TextBlock Text="Apartado de Tazas" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="7" Grid.Column="2" HorizontalAlignment="Left"/>
         <TextBlock Text="Apartado de Favoritos" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="8"  Grid.Column="2" HorizontalAlignment="Left"/>
 
-        <ToggleSwitch x:Name="tsComida" Header="" Margin="0,0,0,0" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="showHideComida">
+        <ToggleSwitch x:Name="tsComida" Header="" Margin="0,0,0,0" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -60,7 +60,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsDeportes" Header="" Margin="0,0,0,0" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsDeportes" Header="" Margin="0,0,0,0" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -69,7 +69,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsFamosos" Header="" Margin="0,0,0,7" Grid.Row="5" Grid.Column="1" VerticalAlignment="Bottom" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsFamosos" Header="" Margin="0,0,0,7" Grid.Row="5" Grid.Column="1" VerticalAlignment="Bottom" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -78,7 +78,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsInformatica" Header="" Margin="0,0,0,0" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsInformatica" Header="" Margin="0,0,0,0" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -87,7 +87,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsPeliculas" Header="" Margin="0,0,0,0" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsPeliculas" Header="" Margin="0,0,0,0" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -96,7 +96,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsVideojuegos" Header="" Margin="0,0,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsVideojuegos" Header="" Margin="0,0,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -105,7 +105,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsCamisetas" Header="" Margin="0,0,0,0" Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsCamisetas" Header="" Margin="0,0,0,0" Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -114,7 +114,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsSudaderas" Header="" Margin="0,0,0,0" Grid.Row="4" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsSudaderas" Header="" Margin="0,0,0,0" Grid.Row="4" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -123,7 +123,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsCalcetines" Header="" Margin="0,0,0,0" Grid.Row="5" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsCalcetines" Header="" Margin="0,0,0,0" Grid.Row="5" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -132,7 +132,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsGorras" Header="" Margin="0,0,0,0" Grid.Row="6" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsGorras" Header="" Margin="0,0,0,0" Grid.Row="6" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -141,7 +141,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsTazas" Header="" Margin="0,0,0,0" Grid.Row="7" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsTazas" Header="" Margin="0,0,0,0" Grid.Row="7" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
@@ -150,7 +150,7 @@
                 <TextBlock Text="Visible"></TextBlock>
             </ToggleSwitch.OnContent>
         </ToggleSwitch>
-        <ToggleSwitch x:Name="tsFavoritos" Header="" Margin="0,0,0,0" Grid.Row="8" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center">
+        <ToggleSwitch x:Name="tsFavoritos" Header="" Margin="0,0,0,0" Grid.Row="8" Grid.Column="3" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center" PointerReleased="mostrarAviso">
 
             <ToggleSwitch.OffContent>
                 <TextBlock Text="No visible"></TextBlock>
