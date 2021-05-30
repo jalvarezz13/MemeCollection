@@ -18,7 +18,7 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="37*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Calcetines" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,0,0" HorizontalAlignment="Left" Width="239"/>
+        <TextBlock Text="Calcetines" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <ComboBox x:ConnectionId='2' x:Name="cbTienda" Margin="350,5,80,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                                     SelectedIndex="0" AutomationProperties.PositionInSet="0"/>
         <Image x:ConnectionId='3' x:Name="imgaddCarrito" HorizontalAlignment="Left" VerticalAlignment="Stretch" Source="/Images/imgCarrito.png" Margin="0,5,0,0" Grid.Column="1"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="100,20,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Stretch" FontSize="30"/>

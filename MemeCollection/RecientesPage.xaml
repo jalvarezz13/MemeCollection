@@ -13,7 +13,7 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="37*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Recientes" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Stretch"/>
+        <TextBlock Text="Recientes" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <GridView  x:Name="grid" Margin="10,10,10,5" Grid.Row="1">
             <local:memeUserControl x:Name="meme1"/>
             <local:memeUserControl x:Name="meme2"/>

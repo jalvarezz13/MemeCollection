@@ -34,22 +34,22 @@
 
         <TextBlock Text="Ajustes" TextWrapping="Wrap" FontSize="60" FontWeight="Bold" Margin="20,0,0,0"  Grid.Row="0" />
         <TextBlock Text="Categorias" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,0,0"  Grid.Row="1"/>
-        <TextBlock Text="Personaliza las categorías de memes según sus gustos." TextWrapping="Wrap" FontSize="40" FontWeight="Bold" Margin="20,0,0,0"  Grid.Row="2" />
-        <TextBlock Text="Activa o Desactiva el apartado Comida" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0"  Grid.Row="3" />
-        <TextBlock Text="Activa o Desactiva el apartado Deportes" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0"  Grid.Row="4" />
-        <TextBlock Text="Activa o Desactiva el apartado Famosos" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="5" />
-        <TextBlock Text="Activa o Desactiva el apartado Informatica" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="6" />
-        <TextBlock Text="Activa o Desactiva el apartado Peliculas" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="7"/>
-        <TextBlock Text="Activa o Desactiva el apartado Videojuegos" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0"  Grid.Row="8" />
+        <TextBlock Text="Personaliza las categorías de memes según sus gustos." TextWrapping="Wrap" FontSize="36" FontWeight="Bold" Margin="20,0,20,15"  Grid.Row="2" Grid.ColumnSpan="2" />
+        <TextBlock Text="Activa o Desactiva el apartado Comida" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0"  Grid.Row="3" HorizontalAlignment="Left" />
+        <TextBlock Text="Activa o Desactiva el apartado Deportes" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0"  Grid.Row="4" HorizontalAlignment="Left" />
+        <TextBlock Text="Activa o Desactiva el apartado Famosos" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="5" HorizontalAlignment="Left" />
+        <TextBlock Text="Activa o Desactiva el apartado Informatica" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="6" HorizontalAlignment="Left" />
+        <TextBlock Text="Activa o Desactiva el apartado Peliculas" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="7" HorizontalAlignment="Left"/>
+        <TextBlock Text="Activa o Desactiva el apartado Videojuegos" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0"  Grid.Row="8" HorizontalAlignment="Left" />
 
         <TextBlock Text="Tienda" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,0,0"  Grid.Row="1"  Grid.Column="2"/>
-        <TextBlock Text="Personaliza el apartado de la tienda con los árticulos que quieras." TextWrapping="Wrap" FontSize="40" FontWeight="Bold" Margin="20,0,0,0" Grid.Row="2"  Grid.Column="2"/>
-        <TextBlock Text="Apartado de Camisetas" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="3"  Grid.Column="2"/>
-        <TextBlock Text="Apartado de Sudaderas" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="4"  Grid.Column="2"/>
-        <TextBlock Text="Apartado de Calcetines" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="5" Grid.Column="2"/>
-        <TextBlock Text="Apartado de Gorras" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="6" Grid.Column="2"/>
-        <TextBlock Text="Apartado de Tazas" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="7" Grid.Column="2"/>
-        <TextBlock Text="Apartado de Favoritos" TextWrapping="Wrap" FontSize="35" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="8"  Grid.Column="2"/>
+        <TextBlock Text="Personaliza el apartado de la tienda con los árticulos que quieras." TextWrapping="Wrap" FontSize="36" FontWeight="Bold" Margin="20,0,20,15" Grid.Row="2"  Grid.Column="2" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Apartado de Camisetas" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="3"  Grid.Column="2" HorizontalAlignment="Left"/>
+        <TextBlock Text="Apartado de Sudaderas" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="4"  Grid.Column="2" HorizontalAlignment="Left"/>
+        <TextBlock Text="Apartado de Calcetines" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="5" Grid.Column="2" HorizontalAlignment="Left"/>
+        <TextBlock Text="Apartado de Gorras" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="6" Grid.Column="2" HorizontalAlignment="Left"/>
+        <TextBlock Text="Apartado de Tazas" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="7" Grid.Column="2" HorizontalAlignment="Left"/>
+        <TextBlock Text="Apartado de Favoritos" TextWrapping="Wrap" FontSize="20" FontWeight="Normal" Margin="20,0,0,0" Grid.Row="8"  Grid.Column="2" HorizontalAlignment="Left"/>
 
         <ToggleSwitch x:ConnectionId='2' x:Name="tsComida" Header="" Margin="0,0,0,0" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" BackgroundSizing="InnerBorderEdge" IsOn="True" HorizontalAlignment="Center"                                 >
 

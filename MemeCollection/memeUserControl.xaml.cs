@@ -82,7 +82,7 @@ namespace MemeCollection
         private void guardarMeme(object sender, PointerRoutedEventArgs e)
         {
             
-            new ToastContentBuilder().AddArgument("action", "Guardar").AddInlineImage(new Uri(ruta_string)).AddArgument("conversationId", 9813).AddText("Meme guardado").Show();
+            new ToastContentBuilder().AddArgument("action", "Guardar").AddInlineImage(new Uri("ms-appx:///Assets/iconoApp.png")).AddArgument("conversationId", 9813).AddText("Tu meme se guardado correctamente.").Show();
            
         }
        

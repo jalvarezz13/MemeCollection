@@ -13,7 +13,7 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="37*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Comida" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Stretch"/>
+        <TextBlock Text="Comida" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="20,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Center" TextAlignment="Center"/>
         <GridView x:ConnectionId='2' x:Name="sepa" Margin="20,10,0,10" Grid.Row="1">
             <local:memeUserControl x:ConnectionId='3' x:Name="meme1" Margin="0,5,5,0"/>
             <local:memeUserControl x:ConnectionId='4' x:Name="meme2" Margin="0,5,5,0"/>

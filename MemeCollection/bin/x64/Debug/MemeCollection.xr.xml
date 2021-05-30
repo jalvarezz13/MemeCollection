@@ -96,10 +96,10 @@
       <RootEvent Name="PointerExited" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
-      <RootMethod Name="GetColumn" />
-      <RootMethod Name="SetColumn" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -109,13 +109,13 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="TextAlignment" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Width" />
-      <RootProperty Name="TextAlignment" />
       <RootEvent Name="PointerReleased" />
     </RootType>
     <RootType FullName="MemeCollection.AcercaDePage" />
