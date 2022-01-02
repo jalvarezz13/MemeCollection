@@ -16,17 +16,14 @@ git clone https://github.com/jalvarezz13/MeMeCollection
 
 ## Capturas
 <div align="center">
-<h2>Tienda</h2>
-<img src="https://github.com/jalvarezz13/MeMeCollection/blob/master/images/shop.png" width="60%" height="">
-</div>
-<div align="center">
   <h2>Red social</h2>
-  <img src="https://github.com/jalvarezz13/MeMeCollection/blob/master/images/rrss.png" width="60%" height="">
+  <img src="https://github.com/jalvarezz13/MeMeCollection/blob/master/images/rrss.png" width="80%" height="">
 </div>
 <div align="center">
-  <h2>Cesta</h2>
-  <img src="https://github.com/jalvarezz13/MeMeCollection/blob/master/images/cart.png" width="60%" height="">
+<h2>Tienda</h2>
+<img src="https://github.com/jalvarezz13/MeMeCollection/blob/master/images/shop.png" width="80%" height="">
 </div>
+
 
 ## Tecnologías
   ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
