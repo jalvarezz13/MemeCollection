@@ -6,7 +6,7 @@ Este trabajo nace con el objetivo de aprender en el curso 2020-2021, la platafor
 La siguiente aplicación contiene el prototipo de una red social, que contiene una tienda. Al entrar en ella, en su menú vertical izquierdo se podrá elegir entre la red social, la tienda, cesta, entre otros.
 
 ## Como usar
-Contiene todo el código y los recursos multimedia para la correcta ejecución de la aplicación. Para ello tienes que:
+Contiene todo el código y los recursos multimedia para la correcta ejecución de la aplicación. Para ello:
   1. Clona el repositorio con 
 ```
 git clone https://github.com/jalvarezz13/MeMeCollection
