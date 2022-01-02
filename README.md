@@ -1,6 +1,6 @@
 <img src="https://github.com/jalvarezz13/MeMeCollection/blob/master/images/logo.png" width="" height="80" align = "left">
 
-# MiniVerse
+# MemeCollection
 ### Contenido
 Este trabajo nace con el objetivo de aprender en el curso 2020-2021, la plataforma de Microsoft, Universal Windows Platform (UWP) y realizar una buena interfaz orientada a la interacción Persona-Ordenador. 
 La siguiente aplicación contiene el prototipo de una red social, que contiene una tienda. Al entrar en ella, en su menú vertical izquierdo se podrá elegir entre la red social, la tienda, cesta, entre otros.
